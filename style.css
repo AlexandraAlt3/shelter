@@ -5,7 +5,7 @@ html{
     box-sizing: inherit;
 }
 .wrapper{
-    max-width: 1200px;
+    max-width: 1200px;/***********************PX************************************/
     margin: 0 auto;
 }
 body{
@@ -17,9 +17,74 @@ body{
 }
 
 /*************HEADER********************/
+/*************START********************/
+.header{
+    background-image: url(./assets/png/start-screen-gradient-background.png);
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%;
+}
 .header__wrapper{
+    padding-top: 60px;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-between;
+    color: #CDCDCD;
 }
+.header__nav{
+    margin-bottom: 10px;
+}
+.header__nav-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header__nav-item{
+    margin-right: 35px; /***********************PX************************************/
+
+}
+.header__nav-item:last-child{
+    margin-right: 0px;
+}
+.header__nav-list{
+    font-size: 15px;
+    text-decoration: none;
+    color: #CDCDCD;
+    line-height: 160%;
+    list-style-type:none;
+    margin-bottom: 0;
+}
+
+.header__nav-item:hover, .header__nav-item:active, .header__nav-item:focus{
+    border-bottom: solid #F1CDB3;
+}
+
+.header__logo-title{
+    text-decoration: none;
+    color: #F1CDB3;
+    font-size: 32px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.header__logo-subtitle{
+    text-decoration: none;
+    font-family: 'Arial';
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.header__logo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+/*************HEADER********************/
+/*************END********************/
+
+
+/*************ABOUT********************/
+/*************START********************/
