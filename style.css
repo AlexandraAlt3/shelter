@@ -30,15 +30,22 @@ body{
     padding-top: 60px;
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-end;
     justify-content: space-between;
     color: #CDCDCD;
 }
+.header__logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
 .header__nav{
     margin-bottom: 10px;
+    display: flex;
+    align-items: flex-end;
 }
 .header__nav-list{
     display: flex;
+    justify-content: flex-end;
     flex-wrap: wrap;
 }
 .header__nav-item{
@@ -54,7 +61,6 @@ body{
     color: #CDCDCD;
     line-height: 160%;
     list-style-type:none;
-    margin-bottom: 0;
 }
 
 .header__nav-item:hover, .header__nav-item:active, .header__nav-item:focus{
