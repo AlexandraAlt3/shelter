@@ -18,12 +18,15 @@ body{
 
 /*************HEADER********************/
 /*************START********************/
+
+
 .header{
     background-image: url(./assets/png/start-screen-gradient-background.png);
     -moz-background-size: 100%; /* Firefox 3.6+ */
     -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
     -o-background-size: 100%; /* Opera 9.6+ */
     background-size: 100%;
+    padding-bottom: 60px;
 }
 .header__wrapper{
     padding-top: 60px;
@@ -88,3 +91,58 @@ body{
 
 /*************ABOUT********************/
 /*************START********************/
+
+.about{
+    min-height: 100vh; /*height window*/
+    background-image: url(./assets/png/start-screen-gradient-background.png);
+    background-size: cover;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%;
+}
+.about-container{
+    background-image: url(./assets/png/start-screen-puppy.png);
+    background-repeat: no-repeat;
+    background-position: right ;
+    min-height: 100vh;
+}
+.about-information{
+    padding-top: 163px;
+    width: 460px;
+    margin-bottom: 243px;
+}
+.about-title{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-top: 0;
+    width: 310px;
+    margin-bottom: 42px;
+}
+.about-subtitle{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #CDCDCD;
+    margin-bottom: 42px;
+}
+.about-button{
+    padding: 15px 45px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    color: #292929;
+    background-color: #F1CDB3;
+    border: #F1CDB3;
+    border-radius: 100px;
+}
+/*************ABOUT********************/
+/*************END********************/
