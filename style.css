@@ -194,3 +194,25 @@ body{
 }
 /*************ABOUT********************/
 /*************END********************/
+
+
+/*************PETS********************/
+/*************START********************/
+.pets{
+    background-color: #F6F6F6;
+}
+.pets-title{
+    margin: 0;
+    padding: 9.12% 33.3%;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%; 
+    letter-spacing: 0.06em;
+    color: #545454;;
+}
+
+
+/*************PETS********************/
+/*************END********************/
