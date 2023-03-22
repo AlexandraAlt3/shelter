@@ -211,8 +211,59 @@ body{
     line-height: 130%; 
     letter-spacing: 0.06em;
     color: #545454;;
+    opacity: 0.4;
 }
-
-
+.pets_cards{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 7.5%;
+}
+.pets_card{
+    grid-column: span 1;
+    background-color:#FAFAFA;
+    margin-bottom: 60px ;
+}
+.pets_card_img{
+    margin-bottom: 30px;
+}
+.pets_card_name{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    margin-left: 98px;
+}
+.pets_card_button{
+    margin: 15px 41.5px;
+    color: #292929;
+    background-color:#FAFAFA;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    width: 187px;
+    height: 52px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+}
+.pets_card-button_button{
+    width: 261px;
+    height: 52px;
+    background: #F1CDB3;
+    border-radius: 100px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    border: #F1CDB3;
+    margin-left: 470px;
+    margin-bottom: 100px;
+}
 /*************PETS********************/
 /*************END********************/
