@@ -109,7 +109,7 @@ body{
 .info-container{
     background-image: url(./assets/png/start-screen-puppy.png);
     background-repeat: no-repeat;
-    background-position: right ;
+    background-position: right bottom;
     min-height: 100vh;
     margin-bottom: 94px;
 }
