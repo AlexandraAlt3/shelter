@@ -273,3 +273,61 @@ body{
 }
 /*************PETS********************/
 /*************END********************/
+
+
+/*************HELP********************/
+/*************START********************/
+
+.help-title{
+    margin: 6.6% 36.9% 5% 37.16%;
+}
+.help-title-title{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+.help__cards{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 55px 86px;
+    margin-left: 87px;
+    margin-bottom: 100px;
+}
+.help__cards-card{
+    grid-column: span 2;
+    margin: 0 auto;
+    justify-self: center;
+    align-self: center;
+}
+.help__cards-card img{
+    margin: 0 auto;
+    display: flex;
+
+}
+.help__cards-title{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+.help__cards > div:nth-child(6) {
+    grid-column: 2 / 4;
+}
+.help__cards > div:nth-child(7) {
+    grid-column: 4 / 6;
+}
+.help__cards > div:nth-child(8) {
+    grid-column: 6 / 8;
+}
+.help__cards > div:nth-child(9) {
+    grid-column: 8 / 10;
+}
+/*************HELP********************/
+/*************END********************/
