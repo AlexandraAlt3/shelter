@@ -331,3 +331,52 @@ body{
 }
 /*************HELP********************/
 /*************END********************/
+
+
+/*************in_additional********************/
+/*************STAR********************/
+
+.in_additional-wrapper{
+    background-color:#F6F6F6;
+    background: url(./assets/png/donation-dog.png) no-repeat;
+}
+.in_additional-donate-title{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+.in_additional-form-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+.in_additional-form-field{
+    background: transparent;
+    border: 0;
+    min-width: 400px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+.in_additional-form-wrapper{
+    border: 0;
+}
+
+/*************in_additional********************/
+/*************END********************/
+
+
+/*************CONTACTS********************/
+/*************STAR********************/
+
+
+
+/*************CONTACTS********************/
+/*************END********************/
