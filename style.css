@@ -63,6 +63,12 @@ body{
 }
 .header__nav-item{
     margin-right: 35px; 
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #CDCDCD;
 
 }
 .header__nav-item:last-child{
@@ -78,6 +84,8 @@ body{
 
 .header__nav-item:hover, .header__nav-item:active, .header__nav-item:focus{
     border-bottom: solid #F1CDB3;
+    color: #FAFAFA;
+
 }
 
 .header__logo-title{
@@ -152,9 +160,13 @@ body{
     font-size: 17px;
     line-height: 130%;
     color: #292929;
-    background-color: #F1CDB3;
+    background: #F1CDB3;
     border: #F1CDB3;
     border-radius: 100px;
+}
+.info-button:hover{
+    cursor: pointer;
+    background: #FDDCC4;
 }
 /*************INFO********************/
 /*************END********************/
@@ -272,6 +284,14 @@ body{
     margin-left: 470px;
     margin-bottom: 100px;
 }
+.pets_card_button:hover{
+    cursor: pointer;
+    background: #FDDCC4;
+}
+.pets_card-button_button:hover{
+    cursor: pointer;
+    background: #FDDCC4;
+}
 /*************PETS********************/
 /*************END********************/
 
@@ -304,6 +324,7 @@ body{
     margin: 0 auto;
     justify-self: center;
     align-self: center;
+    cursor: pointer;
 }
 .help__cards-card img{
     margin: 0 auto;
@@ -370,6 +391,7 @@ body{
     line-height: 110%;
     letter-spacing: 0.06em;
     color: #545454;
+    cursor: pointer;
 }
 .in_additional-form-wrapper{
     border: 0;
@@ -380,6 +402,7 @@ body{
     width: 349px;
     height: 43px;
     display: flex;
+    cursor: pointer;
 }
 .in_additional-form-card-card{
     border: 0;
