@@ -407,7 +407,60 @@ body{
 /*************CONTACTS********************/
 /*************STAR********************/
 
-
-
+.footer-wrapper{
+    background: url(./assets/png/footer-gradient-background.png) no-repeat ;
+    background-size: cover;
+}
+.footer-wrapper-contacts{
+    background: url(./assets/png/footer-puppy.png) no-repeat right bottom;
+    display: flex;
+}
+.footer_questions{
+    margin-top: 56px;
+    display: flex;
+    flex-direction: column;
+    width: 278px;
+    margin-right: 160px;
+    margin-bottom: 20px;
+}
+.footer_visit{
+    margin-top: 56px;
+    display: flex;
+    flex-direction: column;
+    width: 302px;
+}
+.footer_questions-title{
+    margin-top: 0;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    width: 278px;
+}
+.footer_visit-title{
+    margin-top: 0;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    width: 270px;
+}
+.footer_info{
+    text-decoration: none;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+    margin-bottom: 40px;
+}
 /*************CONTACTS********************/
 /*************END********************/
