@@ -216,8 +216,9 @@ body{
     font-size: 35px;
     line-height: 130%; 
     letter-spacing: 0.06em;
-    color: #545454;;
+    color: #545454;
     opacity: 0.4;
+    text-align: center;
 }
 .pets_cards{
     display: grid;
@@ -382,6 +383,7 @@ body{
 }
 .in_additional-form-card-card{
     border: 0;
+    padding: 0;
     background-color: transparent;
     margin-left: 60px;
     font-family: 'Georgia';
@@ -391,6 +393,7 @@ body{
     line-height: 115%;
     letter-spacing: 0.06em;
     color: #545454;
+    width: 500px;
 }
 .in_additional-donate-legal{
     font-family: 'Arial';
@@ -438,7 +441,7 @@ body{
     line-height: 130%;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-    width: 278px;
+    width: 279px;
 }
 .footer_visit-title{
     margin-top: 0;
