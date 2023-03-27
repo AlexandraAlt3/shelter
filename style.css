@@ -89,6 +89,7 @@ body{
 .header__nav-item:first-child{
     border-bottom: solid #F1CDB3;
     color: #FAFAFA;
+    pointer-events: none;
 }
 
 .header__nav-item:hover, .header__nav-item:active, .header__nav-item:focus{
@@ -493,6 +494,7 @@ body{
     width: 270px;
 }
 .footer_info{
+    display: flex;
     text-decoration: none;
     font-family: 'Georgia';
     font-style: normal;
@@ -502,6 +504,8 @@ body{
     letter-spacing: 0.06em;
     color: #F1CDB3;
     margin-bottom: 40px;
+    justify-content: space-around;
+    align-self: center;
 }
 /*************CONTACTS********************/
 /*************END********************/
