@@ -94,13 +94,16 @@ body{
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
-    margin-bottom: 10px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
 }
 .header__logo-subtitle{
     text-decoration: none;
     font-family: 'Arial';
     font-size: 13px;
     color: #292929;
+    letter-spacing: 0.1em;
+
 }
 
 .header__logo{
@@ -119,7 +122,7 @@ body{
     margin-top: 90px;
 }
 .our_pets-title-title{
-    padding-top: 80px;
+    padding-top: 110px;
     margin: 0 auto;
     width: 400px;
     font-family: 'Georgia';
@@ -143,10 +146,10 @@ body{
 .pets_card{
     grid-column: span 1;
     background-color:#FAFAFA;
-    margin-bottom: 40px ;
+    margin-bottom: 70px ;
 }
 .pets_card_img{
-    margin-bottom: 30px;
+    margin-bottom: 18px;
 }
 .pets_card_name{
     font-family: 'Georgia';
@@ -158,7 +161,7 @@ body{
     margin-left: 98px;
 }
 .pets_card_button{
-    margin: 15px 41.5px;
+    margin: 0 41.5px;
     color: #292929;
     background-color:#FAFAFA;
     border: 2px solid #F1CDB3;
@@ -227,10 +230,23 @@ body{
     display: flex;
     justify-content: space-around;
     align-self: center;
-    padding-top: 14px;
+    padding-top: 12px;
 }
 .our_pets-nav a:nth-child(3){
     background: #F1CDB3;
+}
+.our_pets-nav a:hover{
+
+}
+.our_pets-nav a:first-child{
+    pointer-events: none;
+    color: #CDCDCD;
+    border: 0.1em solid #CDCDCD;
+}
+.our_pets-nav a:nth-child(2){
+    pointer-events: none;
+    color: #CDCDCD;
+    border: 0.1em solid#CDCDCD;
 }
 
 /*****************NAV******************************/
@@ -246,7 +262,7 @@ body{
     display: flex;
 }
 .footer_questions{
-    margin-top: 56px;
+    margin-top: 77px;
     display: flex;
     flex-direction: column;
     width: 278px;
@@ -254,7 +270,7 @@ body{
     margin-bottom: 20px;
 }
 .footer_visit{
-    margin-top: 56px;
+    margin-top: 77px;
     display: flex;
     flex-direction: column;
     width: 302px;
@@ -291,6 +307,7 @@ body{
     letter-spacing: 0.06em;
     color: #F1CDB3;
     margin-bottom: 40px;
+    
 }
 /*************CONTACTS********************/
 /*************END********************/
