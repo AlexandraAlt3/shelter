@@ -95,6 +95,7 @@ body{
 .header__nav-item:hover, .header__nav-item:active, .header__nav-item:focus{
     border-bottom: solid #F1CDB3;
     color: #FAFAFA;
+    transition: width 2s linear 1s;
 
 }
 
@@ -105,13 +106,17 @@ body{
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
-    margin-bottom: 10px;
+    margin-bottom: 3px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+
 }
 .header__logo-subtitle{
     text-decoration: none;
     font-family: 'Arial';
     font-size: 13px;
     color: #FFFFFF;
+    letter-spacing: 0.1em;
 }
 
 .header__logo{
@@ -132,7 +137,7 @@ body{
     background-repeat: no-repeat;
     background-position: right bottom;
     /*min-height: 100vh;*/
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     position: relative;
     z-index: 2;
 }
@@ -162,7 +167,7 @@ body{
     margin-bottom: 42px;
 }
 .info-button{
-    padding: 15px 45px;
+    padding: 15px 52px;
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
@@ -176,6 +181,7 @@ body{
 .info-button:hover{
     cursor: pointer;
     background: #FDDCC4;
+    transition-duration: .2s;
 }
 /*************INFO********************/
 /*************END********************/
@@ -187,7 +193,7 @@ body{
     padding-bottom: 100px;
 }
 .about-wrapper{
-    background: url(./assets/png/about-pets.png) no-repeat 25% ;
+    background: url(./assets/png/about-pets.png) no-repeat 20% ;
     display: flex;
 }
 .about-wrapper-information{
@@ -204,7 +210,7 @@ body{
     line-height: 130%;
     width: 370px;
     letter-spacing: 0.06em;
-    margin-bottom: 25px;
+    margin-bottom: 4px;
     margin-top: 0;
 }
 .about-text{
@@ -234,7 +240,7 @@ body{
 }
 .pets-title{
     margin: 0;
-    padding: 80px 400px 60px 400px;
+    padding: 93px 337px 60px 400px;
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
@@ -245,19 +251,48 @@ body{
     opacity: 0.4;
     text-align: center;
 }
+.pets_cards_left{
+    transform: scale(-1, 1);
+    margin-top: 192px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pets_cards_left:hover{
+    background-color: #FDDCC4;
+    transform: .2s;
+}
+.pets_cards_right:hover{
+    background-color: #FDDCC4;
+    transform: .2s;
+}
+.pets_cards_right{
+    margin-top: 192px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .pets_cards{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-column-gap: 7.5%;
+    grid-column-gap: 6%;
 }
 .pets_card{
     grid-column: span 1;
     background-color:#FAFAFA;
     margin-bottom: 60px ;
+    cursor: pointer;
 }
-.pets_card_img{
-    margin-bottom: 30px;
-}
+
+
 .pets_card_name{
     font-family: 'Georgia';
     font-style: normal;
@@ -300,10 +335,13 @@ body{
 .pets_card_button:hover{
     cursor: pointer;
     background: #FDDCC4;
+    transition-timing-function: linear;
+    transition: width 2s linear 1s;
 }
 .pets_card-button_button:hover{
     cursor: pointer;
     background: #FDDCC4;
+    transition: width 2s linear 1s;
 }
 /*************PETS********************/
 /*************END********************/
@@ -313,7 +351,7 @@ body{
 /*************START********************/
 
 .help-title{
-    margin: 6.6% 36.9% 5% 37.16%;
+    margin: 8% 36.9% 5% 37.16%;
 }
 .help-title-title{
     font-family: 'Georgia';
@@ -379,7 +417,7 @@ body{
 }
 .in_additional-div{
     padding-bottom: 100px;
-    background: url(./assets/png/donation-dog.png) 20% 50% no-repeat #F6F6F6;
+    background: url(./assets/png/donation-dog.png) 20% 10% no-repeat #F6F6F6;
 }
 .in_additional-donate{
     margin-left: 678px;
@@ -505,8 +543,7 @@ body{
     letter-spacing: 0.06em;
     color: #F1CDB3;
     margin-bottom: 40px;
-    justify-content: space-around;
-    align-self: center;
+    
 }
 /*************CONTACTS********************/
 /*************END********************/
