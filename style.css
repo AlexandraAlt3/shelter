@@ -555,7 +555,7 @@ body{
 /*************@media screen and (max-width:767px)********************/
 /*************END********************/
 
-@media screen and (max-width:767px){
+@media screen and (max-width:787px){
 
 
     /*************INFO********************/
@@ -574,6 +574,7 @@ body{
     .info-container{
         height: 1165px;
         background-size: 569px auto;
+        margin-bottom: 0;
     }
     .info-title{
         width: auto;
@@ -589,6 +590,58 @@ body{
 
     /*************ABOUT********************/
 
+
+    
+    .about-wrapper-information{
+        margin: 80px auto;
+    }
+    .about-wrapper{
+        background-position: 50% 100%;
+        height: 868px;
+        background-size: 300px auto;
+    }
+    .pets-title{
+        padding: 80px 154px 60px;
+        opacity: 1;
+    }
+    .pets_cards{
+        display: flex;
+        height: 435px;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    .pets_card-button_button{
+        margin-left:224px;
+        margin-top: 60px;
+    }
+
+
+    .help-title-title{
+        width: 307px;
+        margin-right: 200px;
+    }
+    .help__cards{
+        display: flex;
+        flex-wrap: wrap;
+        width: 630px;
+        margin-bottom: 100px;
+    }
+
+
+    .in_additional-div{
+        height: 683px;
+        background: url(./assets/png/donation-dog.png) 50% 60% no-repeat #F6F6F6;
+    }
+    .in_additional-donate{
+        margin-left: 164px;
+    }
+
+
+    .footer-wrapper-contacts {
+        height: 639px;
+        background: url(./assets/png/footer-puppy.png) no-repeat center bottom;
+        display: flex;
+    }
 
 
 }
