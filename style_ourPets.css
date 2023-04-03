@@ -309,3 +309,110 @@ body{
 }
 /*************CONTACTS********************/
 /*************END********************/
+
+
+
+@media screen and (max-width:768px){
+
+    .wrapper{
+        max-width: 695px;
+    }
+    .our_pets-cards {
+        grid-template-columns: repeat(2, 1fr);
+        height: 1365px;
+        overflow: hidden;
+        margin-bottom:66px ;
+    }
+    .our_pets-nav{
+        margin: 0 auto;
+    }
+    .footer-wrapper {
+        height: 639px;
+    }
+    .footer-wrapper-contacts{
+        height: 639px;
+        background: url(./assets/png/footer-puppy.png) no-repeat center bottom;
+    }
+    .our_pets-title-title {
+        width: 400px;
+        margin-left: 214px;
+    }
+    .our_pets-cards{
+        margin-left: 64px;    
+        grid-column-gap: 0px;
+        margin-top: 30px;
+    }
+    .pets_card_img{
+        margin-bottom: 5px;
+    }
+
+    .footer_questions{
+        margin-right: 63px;
+        margin-top: 34px;
+        margin-left: 34px;
+    }
+    .footer_visit{
+        margin-top: 34px;
+    }
+}
+
+
+
+@media screen and (max-width:321px){
+
+    .wrapper{
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .header__logo-title{
+        margin-bottom: 5px;
+    }
+    .header__nav{
+        display: none;
+    }
+    .header__wrapper{
+        padding-top: 30px;
+        margin-left: 20px;
+    }
+    .our_pets-title-title{
+        width: auto;
+        margin: 162px 10px 42px 10px;
+        font-size: 25px;
+        padding: 0;
+        text-align: center;
+    }
+    .our_pets-cards{
+        margin-left: 25px;
+        grid-template-columns: repeat(1, 1fr);
+        height: 1365px;
+        overflow: hidden;
+    }
+    .footer-wrapper-contacts{
+        display: flex;
+        flex-direction:column;
+        background: url(./assets/png/footer-puppy.png) no-repeat center bottom;
+        height: 809px;
+    }
+    .footer-wrapper {
+        height: 809px;
+    }
+    .our_pets-nav{
+        width: 310px;
+    }
+    .footer_questions-title{
+        font-size: 25px;
+    }
+    .footer_questions{
+       margin-top: 0px;
+       margin-left: 46px; 
+       margin-bottom: 5px;
+    }
+    .footer_visit-title{
+        font-size: 25px;
+        margin-left: 45px;
+
+    }
+    .footer_visit{
+        margin-top: 0;
+    }
+}
