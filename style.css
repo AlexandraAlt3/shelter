@@ -29,7 +29,7 @@ body{
     -moz-background-size: 100%; /* Firefox 3.6+ */
     -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
     -o-background-size: 100%; /* Opera 9.6+ */
-    background-size: 100%;
+
     position: relative;
 }
 .header{
@@ -549,3 +549,46 @@ body{
 /*************END********************/
 
 
+
+
+
+/*************@media screen and (max-width:767px)********************/
+/*************END********************/
+
+@media screen and (max-width:767px){
+
+
+    /*************INFO********************/
+
+
+    .wrapper{
+        max-width: 708px;
+        margin: 0 auto;
+    }
+    .info-container{
+        height: 1165px;
+    }
+    .header_wrapper_wrapper{
+        height: 1165px;
+    }
+    .info-container{
+        height: 1165px;
+        background-size: 569px auto;
+    }
+    .info-title{
+        width: auto;
+    }
+    .info-information {
+        padding-top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 460px;
+        padding-left: 124px;
+    }
+
+    /*************ABOUT********************/
+
+
+
+}

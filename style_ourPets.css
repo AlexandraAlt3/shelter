@@ -235,9 +235,7 @@ body{
 .our_pets-nav a:nth-child(3){
     background: #F1CDB3;
 }
-.our_pets-nav a:hover{
 
-}
 .our_pets-nav a:first-child{
     pointer-events: none;
     color: #CDCDCD;
