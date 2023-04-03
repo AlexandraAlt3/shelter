@@ -699,10 +699,11 @@ body{
     }
     .info-information{
         padding-left: 0;
-        width: 300px;
+        width: 258px;
     }
     .info-subtitle{
         width: auto;
+        margin: 0 auto 17px auto;
     }
     .info-button{
         margin: 0;
@@ -715,7 +716,9 @@ body{
         height: 823px;
     }
 
-
+    .about{
+        padding-bottom: 0;
+    }
     .about-title {
         font-size: 25px;
         width: auto;
@@ -724,11 +727,20 @@ body{
     .about-wrapper{
         height: 974px;
     }
-
+    .about-wrapper-information {
+        margin: 40px auto;
+    }
+    .about-wrapper {
+        background: url(./assets/png/about-pets.png) no-repeat bottom 20%;
+        background-size: 260px auto;
+        height: 931px;
+        margin-left: 15px;
+    }
 
     .pets-title{
-        margin: 42px 5px;
+        margin: 82px 0px 42px 0px;
         padding: 0;
+        font-size: 25px;
     }
     .pets_cards_left{
         display: none;
@@ -738,5 +750,29 @@ body{
         height: 507px;
         flex-wrap: wrap;
         overflow: hidden;
+    }
+    .pets_card-button_button{
+        margin-left: 20px;
+        margin-top: 42px;
+        margin-bottom: 45px;
+    }
+
+    .help-title{
+        margin: 40px 21px;
+    }
+    .help-title-title{
+        font-size: 25px;
+        width: 260px;
+    }
+    .help__cards{
+        margin-bottom: 139px;
+        width: 290px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: normal;
+        
+    }
+    .help__cards-card {
+        margin: 0;
     }
 }
