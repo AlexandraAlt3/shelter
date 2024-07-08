@@ -1,0 +1,19 @@
+@mixin font ($size, $height, $weight, $style:normal ) {
+    font-size: $size;
+    font-style: $style;
+    font-weight: $weight;
+    line-height: $height;
+}
+@mixin flex($align:center,$justify:center,$wrap: wrap ){
+    display: flex;
+    flex-wrap: $wrap;
+    align-items: $align;
+    justify-content: $justify;
+}
+@mixin hover($color , $hover_color){
+    text-decoration: none;
+    color: $color;
+    &:hover{
+        color: $hover_color;
+    }
+}
