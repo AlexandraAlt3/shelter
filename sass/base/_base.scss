@@ -3,14 +3,18 @@ html{
 }
 body{
     font-family: 'Arial';
-    font-size: 1.5rem;
+   @include font(1.5rem, 160%, 400);
+   
+   
 }
 h1{
     font-family: 'Georgia';
-    font-size: 1.5rem;
    
 }
 h2{
     font-family: 'Abril Fatface';
-    font-size: 1.5rem;
+    
+}
+h3{
+
 }
