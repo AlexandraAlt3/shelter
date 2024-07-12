@@ -157,6 +157,28 @@ button:hover {
   margin: 0 0 42px 0;
 }
 
+.background-grey {
+  background: #F6F6F6;
+}
+
+.our-friends__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.our-friends__cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-friends__slider {
+  padding: 23px 19px;
+  border-radius: 100px;
+  border: 2px solid #F1CDB3;
+  height: 23px;
+}
+
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;

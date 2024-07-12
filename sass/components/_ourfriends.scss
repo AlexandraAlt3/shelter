@@ -1,0 +1,19 @@
+.background-grey{
+    background: $background;
+}
+.our-friends__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.our-friends__cards{
+    display: flex;
+    justify-content: space-between;
+}
+.our-friends__slider{
+    padding: 23px 19px;
+    border-radius: 100px;
+    border: 2px solid #F1CDB3;
+    height: 23px;
+}
+
