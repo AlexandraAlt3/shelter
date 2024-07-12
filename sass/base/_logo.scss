@@ -4,8 +4,6 @@
 }
 
 .header__logo-title{
-    font-family: 'Georgia';
-    @include font (3.2rem, 110%, 400, 0.192rem);
     color: $color-bottom;
     text-decoration: none;
 }
