@@ -12,14 +12,18 @@
 .nav{
     display: flex;
 }
-.nav-ul{
-    margin: 16px 0 17px 0;
-}
 .nav-item{
     list-style: none;
-    padding: 0 20px;
+
+    &:last-child{
+        padding-right: 0;
+    }
 }
 .nav-link{
     text-decoration: none;
-    color: $color-nav;
+    color: $text-header;
+    &:hover{
+        color:$color-nav;
+        cursor: pointer;
+    }
 }

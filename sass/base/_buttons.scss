@@ -1,11 +1,13 @@
-/*button{
-    padding: 5px 50px;
-    font-family: 'Satisfy', cursive;
-    @include font(2.1rem, 54px, 400);
-    background-color: $color-buttons;
+button{
+    padding: 15px 45px;
+    font-family: 'Georgia';
+    @include font (1.7rem, 130%, 400, 0.102rem);
+    color: $color-bottom-text;
+    border-radius: 100px;
+    border: 2px solid #F1CDB3;
     @extend %transition;
     &:hover{
-        background-color:$color-primary;
+        background-color:$color-bottom;
         cursor: pointer;
     }
-}*/
+}

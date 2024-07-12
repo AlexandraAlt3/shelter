@@ -11,6 +11,7 @@ body{
 h1{
     font-family: 'Georgia';
     @include font (3.2rem, 110%, 400, 0.192rem);
+    margin: 30px 0 10px 0;
 }
 h2{
     font-family: 'Abril Fatface';
@@ -18,8 +19,15 @@ h2{
     color: $color-subtitle;
 }
 h3{
-    font-family: 'Abril Fatface';
+    font-family: 'Georgia';
+    @include font (3.5rem, 130%, 400, 0.21rem);
+    color: $coolor-title;
 }
 .not-only__text{
     color: $text-header;
+}
+p{
+    font-family: 'Arial';
+    @include font (1.5rem, 160%, 400);
+    color: $color-text;
 }

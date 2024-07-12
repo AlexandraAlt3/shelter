@@ -1,11 +1,13 @@
 @import "./abstracts/constans";
 @import "./abstracts/mixins";
+@import "./abstracts/placeholders";
 
 @import "./base/base";
 @import "./base/logo";
 @import "./base/buttons";
 
-@import "./components/not-only.scss";
+@import "./components/about";
+@import "./components/not-only";
 
 @import "./layout/wrapper";
 @import "./layout/header";
