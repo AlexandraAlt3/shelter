@@ -49,6 +49,16 @@ h3 {
   color: #545454;
 }
 
+h4 {
+  font-family: "Georgia";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 115%;
+  letter-spacing: 0.12rem;
+  color: #545454;
+}
+
 .not-only__text {
   color: #CDCDCD;
 }
@@ -95,11 +105,12 @@ button {
   line-height: 130%;
   letter-spacing: 0.102rem;
   color: #292929;
+  background-color: #F1CDB3;
   border-radius: 100px;
   border: 2px solid #F1CDB3;
 }
 button:hover {
-  background-color: #F1CDB3;
+  background-color: #FDDCC4;
   cursor: pointer;
 }
 
@@ -157,6 +168,12 @@ button:hover {
   margin: 0 0 42px 0;
 }
 
+.our-friends__title {
+  padding: 80px 400px 0px;
+  margin: 0;
+  text-align: center;
+}
+
 .background-grey {
   background: #F6F6F6;
 }
@@ -171,12 +188,62 @@ button:hover {
   display: flex;
   justify-content: space-between;
 }
+.our-friends__cards .our-friends__card {
+  margin: 60px 45px 60px 53px;
+  background-color: #FAFAFA;
+}
+.our-friends__cards .our-friends__card .our-friends__img {
+  border-radius: 9px 9px 0px 0px;
+  margin-bottom: 30px;
+}
+.our-friends__cards .our-friends__card .our-friends__name {
+  margin: 0 0 30px 0;
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+}
+
+.button_border {
+  margin-left: 41.5px;
+  background-color: #FAFAFA;
+  margin-bottom: 30px;
+}
 
 .our-friends__slider {
   padding: 23px 19px;
   border-radius: 100px;
   border: 2px solid #F1CDB3;
-  height: 23px;
+  background-color: #FAFAFA;
+}
+
+.arrow {
+  display: flex;
+}
+
+.button-rest {
+  margin-left: 470px;
+  margin-bottom: 100px;
+}
+
+.help-title {
+  margin: 80px 446px 60px;
+  text-align: center;
+}
+
+.help-categories {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 85px 70px;
+  gap: 35px 120px;
+  justify-content: center;
+}
+
+.help-category {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .wrapper {

@@ -1,3 +1,8 @@
+.our-friends__title{
+    padding: 80px 400px 0px;
+    margin: 0;
+    text-align: center;
+}
 .background-grey{
     background: $background;
 }
@@ -9,11 +14,43 @@
 .our-friends__cards{
     display: flex;
     justify-content: space-between;
+    
+    
+
+    .our-friends__card{
+        margin: 60px 45px 60px 53px;
+        background-color: $color-nav;
+
+       .our-friends__img{
+        border-radius: 9px 9px 0px 0px;
+        margin-bottom: 30px;
+       }
+
+       .our-friends__name{
+        margin: 0 0 30px 0;
+        display: flex;
+        justify-content: space-around;
+        font-size: 2rem;
+       }
+
+    }
+}
+.button_border{
+    margin-left: 41.5px;
+    background-color: $color-nav;
+    margin-bottom: 30px;
+    
 }
 .our-friends__slider{
     padding: 23px 19px;
     border-radius: 100px;
     border: 2px solid #F1CDB3;
-    height: 23px;
+    background-color: $color-nav;
 }
-
+.arrow{
+    display: flex;
+}
+.button-rest{
+    margin-left: 470px;
+    margin-bottom:100px ;
+}

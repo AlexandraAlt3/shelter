@@ -23,6 +23,11 @@ h3{
     @include font (3.5rem, 130%, 400, 0.21rem);
     color: $coolor-title;
 }
+h4{
+    font-family: 'Georgia';
+    @include font (2rem, 115%, 400, 0.12rem);
+    color: $coolor-title;
+}
 .not-only__text{
     color: $text-header;
 }
