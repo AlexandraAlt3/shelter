@@ -36,3 +36,6 @@ p{
     @include font (1.5rem, 160%, 400);
     color: $color-text;
 }
+a{
+    text-decoration: none;
+}

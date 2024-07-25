@@ -22,8 +22,21 @@
 .nav-link{
     text-decoration: none;
     color: $text-header;
+    @extend %transition;
+    border-bottom: solid transparent;
+
     &:hover{
         color:$color-nav;
         cursor: pointer;
+        border-bottom: solid $color-bottom;
+    }
+}
+
+.nav ul:first-child{
+   
+    a{
+        border-bottom: solid #F1CDB3;
+        color: #FAFAFA;
+        pointer-events: none;
     }
 }

@@ -30,7 +30,7 @@
                 </ul>
                 <ul class="nav-ul">
                     <li class="nav-item">
-                        <a href="#ourpets" class="nav-link">Our pets</a>
+                        <a href="./our-pets.html" class="nav-link">Our pets</a>
                     </li>
                 </ul>
                 <ul class="nav-ul">
@@ -56,7 +56,9 @@
                     <div class="not-only__information">
                         <h2 class="not-only__title">Not only people need a house</h2>
                         <p class="not-only__text">We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!</p>
-                        <Button>Make a friend</Button>
+                        <form action="#ourpets">
+                            <Button>Make a friend</Button>
+                        </form>
                     </div>
                     <div class="not-only__img"><img src="./assets/img/start-screen-puppy.png" alt="start-screen-puppy"></div>
                 </section>
@@ -84,7 +86,7 @@
         <div class="background-grey">
             <div class="wrapper">
                 <section class="our-friends" id="ourpets">
-                    <h3 class="our-friends__title">Our friends who <br /> are looking for a house</h3>
+                    <h3 class="our-friends__title">Our friends who <br> are looking for a house</h3>
                     <div class="our-friends__menu">
                         <button class="our-friends__slider slider1"><img  src="./assets/img/Arrow.svg" alt="Arrow" class="arrow"></button>
                         <div class="our-friends__cards">
@@ -104,9 +106,12 @@
                                 <button class="button button_border">Learn more</button>
                             </div>
                         </div>
-                        <button class="our-friends__slider slider1"><img class="arrow" src="./assets/img/Arrow (1).svg" alt="Arrow"></button>
+                        <button class="our-friends__slider slider1"><img class="arrow" src="./assets/img/Arrow-invrted.svg" alt="Arrow"></button>
                     </div>
-                    <button class="button-rest"> Get to know the rest</button>
+                    <form action="./our-pets.html">
+                        <button class="button-rest"> Get to know the rest</button>   
+                    </form>
+                    
                 </section>
             </div>
         </div>
@@ -115,44 +120,44 @@
 
                     <!-- #Help   START  -->
         <section class="help" id="help">
-            <h3 class="help-title">How you can help <br />our shelter</h3>
+            <h3 class="help-title">How you can help <br>our shelter</h3>
             <div class="help-categories">
-                <div class="help-category">
+                <a href="#!" class="help-category">
                     <img src="./assets/img/icon-pet-food.svg" alt="pet-food">
                     <h4 class="categories-title">Pet food</h4>
-                </div>
-                <div class="help-category">
+                </a>
+                <a href="#!" class="help-category">
                     <img src="./assets/img/icon-transportation.svg" alt="transportation">
                     <h4 class="categories-title">Transportation</h4>
-                </div>
-                <div class="help-category">
+                </a>
+                <a href="#!" class="help-category">
                     <img src="./assets/img/icon-toys.svg" alt="toys">
                     <h4 class="categories-title">Toys</h4>
-                </div>
-                <div class="help-category">
+                </a>
+                <a href="#!" class="help-category">
                     <img src="./assets/img/icon-bowls-and-cups.svg" alt="bowls-and-cups">
                     <h4 class="categories-title">Bowls and cups</h4>
-                </div>
-                <div class="help-category">
+                </a>
+                <a href="#!" class="help-category">
                     <img src="./assets/img/icon-shampoos.svg" alt="shampoos">
                     <h4 class="categories-title">Shampoos</h4>
-                </div>
-                <div class="help-category">
+                </a>
+                <a href="#!" class="help-category">
                     <img src="./assets/img/icon-vitamins.svg" alt="vitamins">
                     <h4 class="categories-title">Vitamins</h4>
-                </div>
-                <div class="help-category">
+                </a>
+                <a href="#!" class="help-category">
                     <img src="./assets/img/icon-medicines.svg" alt="medicines">
                     <h4 class="categories-title">Medicines</h4>
-                </div>
-                <div class="help-category">
+                </a>
+                <a href="#!" class="help-category">
                     <img src="./assets/img/icon-collars-leashes.svg" alt="collars-leashes">
                     <h4 class="categories-title">Collars / leashes</h4>
-                </div>
-                <div class="help-category">
+                </a>
+                <a href="#!" class="help-category">
                     <img src="./assets/img/icon-sleeping-area.svg" alt="sleeping-area">
                     <h4 class="categories-title">Sleeping areas</h4>
-                </div>
+                </a>
             </div>
         </section>
 
@@ -165,7 +170,7 @@
                 <div class="in-addition__flex">
                     <div class="in-addition__img"> <img src="./assets/img/donation-dog.png" alt="donation-dog"></div>
                     <div class="in-addition__info">
-                        <h3 class="in-addition__title">You can also <br /> make a donation</h3>
+                        <h3 class="in-addition__title">You can also <br> make a donation</h3>
                         <form class="in_additional-donate-form">
                                 <p class="in_additional-form-info"> Name of the bank / Type of bank account</p>
                                 <fieldset class="in_additional-form-wrapper">
@@ -183,8 +188,38 @@
     </main>
     
     <footer class="footer">
-        <div class="container">
+        <div class="wrapper">
+            <div class="fotter-contacts" id="contacts">
 
+                <div class="contact__questions">
+                    <h3 class="contact__h3">For questions <br> and suggestions</h3>
+                    
+                        <a href="#!" class="contact__email footer_flex">
+                            <img src="./assets/svg/icon-email.svg" alt="icon-email">
+                            <h4 class="categories-title email">email@shelter.com</h4>
+                        </a>
+                        <a href="#!" class="contact__phone footer_flex">
+                            <img src="./assets/svg/icon-phone.svg" alt="icon-phone">
+                            <h4 class="categories-title phone">+13 674 567 75 54</h4>
+                        </a>
+                </div>
+
+                <div class="visit">
+                    <h3 class="visit__h3">We are waiting <br> for your visit</h3>
+                    
+                        <a href="#!" class="visit__location footer_flex">
+                            <img src="./assets/img/icon-marker.png" alt="icon-marker">
+                            <h4 class="categories-title location">1 Central Street, Boston <br> (entrance from the store)</h4>
+                        </a>
+                        <a href="!#" class="visit__location footer_flex">
+                            <img src="./assets/img/icon-marker.png" alt="icon-marker">
+                            <h4 class="categories-title location2">18 South Park, London </h4>
+                        </a>
+                </div>  
+
+                <img src="./assets/img/footer-puppy.png" alt="footer-puppy">
+
+            </div>
         </div>
     </footer>
 </body>

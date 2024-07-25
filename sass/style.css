@@ -1,4 +1,4 @@
-button {
+.nav-link, button {
   transition: all 0.3s ease-out;
 }
 
@@ -73,6 +73,10 @@ p {
   color: #4C4C4C;
 }
 
+a {
+  text-decoration: none;
+}
+
 .header__logo {
   display: flex;
   flex-wrap: wrap;
@@ -119,7 +123,7 @@ button:hover {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
-  padding: 80px 0 100px 0;
+  padding: 75px 0 100px 0;
 }
 
 .about__img {
@@ -157,7 +161,7 @@ button:hover {
 }
 
 .not-only__information {
-  padding: 163px 42px 243px 0;
+  padding: 145px 42px 236px 0;
 }
 
 .not-only__title {
@@ -169,7 +173,7 @@ button:hover {
 }
 
 .our-friends__title {
-  padding: 80px 400px 0px;
+  padding: 63px 400px 0px;
   margin: 0;
   text-align: center;
 }
@@ -189,8 +193,13 @@ button:hover {
   justify-content: space-between;
 }
 .our-friends__cards .our-friends__card {
-  margin: 60px 45px 60px 53px;
+  margin: 46px 39px 57px 46px;
   background-color: #FAFAFA;
+  cursor: pointer;
+}
+.our-friends__cards .our-friends__card:hover .button_border {
+  background-color: #FDDCC4;
+  cursor: pointer;
 }
 .our-friends__cards .our-friends__card .our-friends__img {
   border-radius: 9px 9px 0px 0px;
@@ -255,11 +264,11 @@ button:hover {
 }
 
 .in-addition__img {
-  margin: 90px 30px 110px 143px;
+  margin: 65px 30px 86px 143px;
 }
 
 .in-addition__title {
-  margin: 80px 222px 20px 0px;
+  margin: 53px 222px 20px 0px;
 }
 
 .in_additional-form-info {
@@ -339,10 +348,87 @@ button:hover {
 .nav-link {
   text-decoration: none;
   color: #CDCDCD;
+  border-bottom: solid transparent;
 }
 .nav-link:hover {
   color: #FAFAFA;
   cursor: pointer;
+  border-bottom: solid #F1CDB3;
+}
+
+.nav ul:first-child a {
+  border-bottom: solid #F1CDB3;
+  color: #FAFAFA;
+  pointer-events: none;
+}
+
+.footer {
+  background: url(/assets/img/start-screen-gradient-background.jpg) no-repeat;
+  background-size: 100% auto;
+}
+
+.fotter-contacts {
+  display: flex;
+  padding-top: 40px;
+}
+
+.contact__h3 {
+  color: #FFF;
+  margin: 16px 0 40px 0;
+}
+
+.categories-title {
+  color: #F1CDB3;
+}
+
+.footer_flex {
+  display: flex;
+}
+
+.categories-title {
+  margin-left: 20px;
+}
+
+.contact__email {
+  margin-bottom: 40px;
+}
+
+.contact__questions img {
+  width: 40px;
+  height: 32px;
+}
+
+.email {
+  margin: 0px 39px 0 20px;
+}
+
+.phone {
+  margin: 0px 39px 0 20px;
+}
+
+.contact__questions {
+  margin: 16px 160px 60px 0;
+}
+
+.visit__h3 {
+  color: #FFF;
+}
+
+.visit__location img {
+  width: 22px;
+  height: 32px;
+}
+
+.location {
+  margin: 0 0 20px 20px;
+}
+
+.location2 {
+  margin: 0 0 0 20px;
+}
+
+.visit {
+  margin-right: 160px;
 }
 
 /*# sourceMappingURL=style.css.map */
