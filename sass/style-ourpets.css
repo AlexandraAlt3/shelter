@@ -303,7 +303,7 @@ button:hover {
 }
 
 .footer {
-  background-color: #5B483A;
+  background-image: url(../../../assets/img/background.jpg);
   background-size: 100% auto;
 }
 
