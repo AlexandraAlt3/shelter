@@ -1,0 +1,61 @@
+.ourpets__cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+    
+    .ourpets__card{
+        margin: 15px 0 0 0;
+        background-color: $color-nav;
+        cursor: pointer;
+        
+        .button_border{
+            background-color:$color-nav;
+        }
+
+        &:hover .button_border{
+            background-color:$color-button-hover;
+            cursor: pointer;
+        }
+
+       .our-friends__img{
+        border-radius: 9px 9px 0px 0px;
+        margin-bottom: 30px;
+       }
+
+       .our-friends__name{
+        margin: 0 0 30px 0;
+        display: flex;
+        justify-content: space-around;
+        font-size: 2rem;
+       }
+
+       .button_border{
+        margin-left: 41.5px;
+        margin-bottom: 30px;
+       }
+    }
+}
+.outpets__button{
+    padding-left: 430px;
+}
+
+.ourpets__circle{
+    margin-right: 15px;
+    padding: 14px 12px;
+    border-radius: 100px;
+    border: 2px solid #F1CDB3;
+    background-color: #FAFAFA;
+    
+}
+.circle2{
+    padding: 13px 20px;
+}
+.circle3{
+    padding: 13px 20px;
+}
+.circle-not{
+    border: 2px solid $text-header;
+    color: $color-bottom-text;
+    pointer-events: none;
+}
