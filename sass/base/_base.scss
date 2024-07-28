@@ -1,0 +1,41 @@
+html{
+    font-size: 10px;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Arial';
+   @include font(1.5rem, 160%, 400);
+}
+h1{
+    font-family: 'Georgia';
+    @include font (3.2rem, 110%, 400, 0.192rem);
+    margin: 30px 0 10px 0;
+}
+h2{
+    font-family: 'Abril Fatface';
+    @include font(4.4rem, 130%, 400, );
+    color: $color-subtitle;
+}
+h3{
+    font-family: 'Georgia';
+    @include font (3.5rem, 130%, 400, 0.21rem);
+    color: $coolor-title;
+}
+h4{
+    font-family: 'Georgia';
+    @include font (2rem, 115%, 400, 0.12rem);
+    color: $coolor-title;
+}
+.not-only__text{
+    color: $text-header;
+}
+p{
+    font-family: 'Arial';
+    @include font (1.5rem, 160%, 400);
+    color: $color-text;
+}
+a{
+    text-decoration: none;
+}

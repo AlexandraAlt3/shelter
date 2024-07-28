@@ -1,0 +1,53 @@
+.footer{
+    background: $backgroung-gradient;
+    background-size: 100% auto;
+}
+.fotter-contacts{
+    display: flex;
+    padding-top: 40px;
+}
+.contact__h3{
+    color: $color-subtitle;
+    margin: 16px 0 40px 0 ;
+}
+.categories-title{
+    color:$color-bottom;
+}
+.footer_flex{
+    display: flex;
+}
+.categories-title{
+    margin-left: 20px ;
+}
+.contact__email{
+margin-bottom: 40px;
+}
+.contact__questions img{
+    width: 40px;
+    height: 32px;
+}
+.email{
+    margin: 0px 39px 0 20px ;
+}
+.phone{
+    margin: 0px 39px 0 20px ;
+}
+.contact__questions{
+    margin: 16px 160px 60px 0;
+}
+.visit__h3{
+    color: $color-subtitle;
+}
+.visit__location img {
+    width: 22px;
+    height: 32px;
+}
+.location{
+    margin: 0 0 20px 20px ;
+}
+.location2{
+    margin: 0 0 0 20px ;
+}
+.visit{
+    margin-right: 160px;
+}

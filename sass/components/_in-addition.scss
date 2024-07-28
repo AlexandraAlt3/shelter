@@ -1,0 +1,40 @@
+.in-addition{
+    background-color: $background;
+}
+.in-addition__flex{
+    display: flex;
+}
+.in-addition__img{
+    margin:65px 30px 86px 143px;
+}
+.in-addition__title{
+    margin: 53px 222px 20px 0px;
+}
+.in_additional-form-info{
+    @include font (1.5rem, 110%, 400, 0.09rem);
+}
+.in-addition__text{
+    font-family: "Abhaya Libre";
+    @include font (1.2rem, 150%, 700);
+    color: $text-donation;
+}
+.in_additional-form-wrapper{
+    background-color: $color-bottom;
+    width: 350px;
+    height: 43px;
+    border: 0cap;
+    border-radius: 9px;
+}
+.in_additional-form-card-card{
+    background-color: $color-bottom;
+    @include font (2.0rem, 115%, 400, 0.12rem);
+    font-family: Georgia;
+    border: 0cap;
+    width: 300px;
+    height: 25px;
+}
+.in_additional-form-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}

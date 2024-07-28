@@ -1,0 +1,15 @@
+@import "./abstracts/constans";
+@import "./abstracts/mixins";
+@import "./abstracts/placeholders";
+
+@import "./base/base";
+@import "./base/buttons";
+
+@import "./layout/wrapper";
+@import "./layout/footer";
+
+@import "./pages/ourpets/page";
+@import "./pages/ourpets/logo";
+@import"./pages/ourpets/header";
+@import"./pages/ourpets/cards";
+

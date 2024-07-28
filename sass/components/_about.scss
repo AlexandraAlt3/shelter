@@ -1,0 +1,19 @@
+.about-content{
+    @include flex($wrap:nowrap);
+    padding: 75px 0 100px 0;
+}
+.about__img{
+    margin: 0 120px 0 175px ;
+}
+.about__information{
+    margin: 0 175px 0 0;
+}
+.about__title{
+    margin: 0 60px 25px 0;
+}
+.about__information__1{
+    margin: 0 0 25px 0;
+}
+.about__information__2{
+    margin: 0 0 25px 0;
+}

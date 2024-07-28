@@ -1,0 +1,18 @@
+.background-not-only{
+    background: $backgroung-gradient;
+    background-size: 100% auto;
+    padding: 70px 0 0 0 ;
+ }
+ .not-only{
+    @include flex($wrap:nowrap);
+    padding: 110px 0 0 0;
+ }
+ .not-only__information{
+    padding: 145px 42px 236px 0;
+ }
+.not-only__title{
+    margin: 0 150px 42px 0;
+}
+.not-only__text{
+    margin: 0 0 42px 0;
+}

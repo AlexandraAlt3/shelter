@@ -1,0 +1,42 @@
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.header__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+}
+.nav-item{
+    list-style: none;
+
+    &:last-child{
+        padding-right: 0;
+    }
+}
+.nav-link{
+    text-decoration: none;
+    color: $text-header;
+    @extend %transition;
+    border-bottom: solid transparent;
+
+    &:hover{
+        color:$color-nav;
+        cursor: pointer;
+        border-bottom: solid $color-bottom;
+    }
+}
+
+.nav ul:first-child{
+   
+    a{
+        border-bottom: solid #F1CDB3;
+        color: #FAFAFA;
+        pointer-events: none;
+    }
+}
