@@ -1,6 +1,12 @@
 .about-content{
     @include flex($wrap:nowrap);
     padding: 75px 0 100px 0;
+
+    @include media-tablet{
+        flex-direction: column-reverse;
+        padding: 0 0 100px;
+    }
+
 }
 .about__img{
     margin: 0 120px 0 175px ;

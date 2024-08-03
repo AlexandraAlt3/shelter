@@ -1,9 +1,10 @@
-.nav-link, button {
+.nav-link, button, a {
   transition: all 0.3s ease-out;
 }
 
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -125,6 +126,12 @@ button:hover {
   justify-content: center;
   padding: 75px 0 100px 0;
 }
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column-reverse;
+    padding: 0 0 100px;
+  }
+}
 
 .about__img {
   margin: 0 120px 0 175px;
@@ -242,7 +249,7 @@ button:hover {
 .help-categories {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 85px 100px;
+  margin: 0 75px 100px;
   gap: 35px 120px;
   justify-content: center;
 }

@@ -1,5 +1,6 @@
 html{
     font-size: 10px;
+    scroll-behavior: smooth;
 }
 *{
     box-sizing: border-box;
@@ -38,4 +39,5 @@ p{
 }
 a{
     text-decoration: none;
+    @extend %transition;
 }
