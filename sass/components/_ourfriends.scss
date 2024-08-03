@@ -2,6 +2,11 @@
     padding: 63px 400px 0px;
     margin: 0;
     text-align: center;
+
+    @include media-tablet{
+        padding: 75px 140px 0px
+    }
+
 }
 .background-grey{
     background: $background;
@@ -10,6 +15,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    
+
 }
 .our-friends__cards{
     display: flex;
@@ -21,6 +29,10 @@
         margin: 46px 39px 57px 46px;
         background-color: $color-nav;
         cursor: pointer;
+
+        @include media-tablet{
+            margin: 55px 28px 17px 9px;
+        }
         
         &:hover .button_border{
             background-color:$color-button-hover;
@@ -40,6 +52,14 @@
        }
 
     }
+
+
+    @include media-tablet{
+        margin: 0 0px 58px;
+        height: 495px;
+        overflow: hidden;
+    }
+
 }
 .button_border{
     margin-left: 41.5px;
@@ -59,4 +79,9 @@
 .button-rest{
     margin-left: 470px;
     margin-bottom:100px ;
+
+    @include media-tablet{
+        margin: 0 221px 100px;
+    }
+
 }

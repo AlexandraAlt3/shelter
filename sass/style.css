@@ -136,9 +136,19 @@ button:hover {
 .about__img {
   margin: 0 120px 0 175px;
 }
+@media (max-width: 768px) {
+  .about__img {
+    margin: 0 auto;
+  }
+}
 
 .about__information {
   margin: 0 175px 0 0;
+}
+@media (max-width: 768px) {
+  .about__information {
+    margin: 80px 140px 50px 140px;
+  }
 }
 
 .about__title {
@@ -166,9 +176,23 @@ button:hover {
   justify-content: center;
   padding: 110px 0 0 0;
 }
+@media (max-width: 768px) {
+  .not-only {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 100px 0 100px;
+  }
+}
 
 .not-only__information {
   padding: 145px 42px 236px 0;
+}
+@media (max-width: 768px) {
+  .not-only__information {
+    padding: 12px 11px 100px 24px;
+  }
 }
 
 .not-only__title {
@@ -179,10 +203,30 @@ button:hover {
   margin: 0 0 42px 0;
 }
 
+@media (max-width: 768px) {
+  .ourpets__button {
+    margin-left: 124px;
+  }
+}
+
+.not-only__img img {
+  width: 560px;
+}
+@media (max-width: 768px) {
+  .not-only__img {
+    padding-left: 120px;
+  }
+}
+
 .our-friends__title {
   padding: 63px 400px 0px;
   margin: 0;
   text-align: center;
+}
+@media (max-width: 768px) {
+  .our-friends__title {
+    padding: 75px 140px 0px;
+  }
 }
 
 .background-grey {
@@ -204,6 +248,11 @@ button:hover {
   background-color: #FAFAFA;
   cursor: pointer;
 }
+@media (max-width: 768px) {
+  .our-friends__cards .our-friends__card {
+    margin: 55px 28px 17px 9px;
+  }
+}
 .our-friends__cards .our-friends__card:hover .button_border {
   background-color: #FDDCC4;
   cursor: pointer;
@@ -217,6 +266,13 @@ button:hover {
   display: flex;
   justify-content: space-around;
   font-size: 2rem;
+}
+@media (max-width: 768px) {
+  .our-friends__cards {
+    margin: 0 0px 58px;
+    height: 495px;
+    overflow: hidden;
+  }
 }
 
 .button_border {
@@ -240,6 +296,11 @@ button:hover {
   margin-left: 470px;
   margin-bottom: 100px;
 }
+@media (max-width: 768px) {
+  .button-rest {
+    margin: 0 221px 100px;
+  }
+}
 
 .help-title {
   margin: 80px 446px 60px;
@@ -249,7 +310,7 @@ button:hover {
 .help-categories {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 75px 100px;
+  margin: 0 60px 100px;
   gap: 35px 120px;
   justify-content: center;
 }
@@ -327,12 +388,29 @@ button:hover {
   max-width: 1200px;
   margin: 0 auto;
 }
+@media (max-width: 1200px) {
+  .wrapper {
+    max-width: 708px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 414px) {
+  .wrapper {
+    max-width: 394px;
+    margin: 0 auto;
+  }
+}
 
 .header {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
+}
+@media (max-width: 768px) {
+  .header {
+    padding: 0 0 100px;
+  }
 }
 
 .header__wrapper {
