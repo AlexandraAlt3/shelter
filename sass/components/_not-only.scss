@@ -2,17 +2,45 @@
     background: linear-gradient(90deg, rgba(91,72,58,1) 1%, rgba(33,31,32,1) 100%, rgba(38,36,37,1) 100%);
     background-size: 100% auto;
     padding: 70px 0 0 0 ;
+
  }
  .not-only{
     @include flex($wrap:nowrap);
     padding: 110px 0 0 0;
+
+    @include media-tablet{
+        @include flex($wrap:wrap);
+        padding: 60px 100px 0 100px;
+    }
+
  }
  .not-only__information{
     padding: 145px 42px 236px 0;
+
+    @include media-tablet{
+        padding: 12px 11px 100px 24px;
+
+    }
+
  }
 .not-only__title{
     margin: 0 150px 42px 0;
 }
 .not-only__text{
     margin: 0 0 42px 0;
+}
+.ourpets__button{
+
+    @include media-tablet{
+        margin-left: 124px;
+    }
+    
+}
+.not-only__img{
+    img{
+        width: 560px;
+    }
+    @include media-tablet{
+        padding-left: 120px;
+    }
 }

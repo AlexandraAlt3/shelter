@@ -1,12 +1,26 @@
 .about-content{
     @include flex($wrap:nowrap);
     padding: 75px 0 100px 0;
+
+    @include media-tablet{
+        flex-direction: column-reverse;
+        padding: 0 0 100px;
+    }
+
 }
 .about__img{
     margin: 0 120px 0 175px ;
+    @include media-tablet{
+        margin: 0 auto;
+    }
 }
 .about__information{
     margin: 0 175px 0 0;
+
+    @include media-tablet{
+    margin: 80px 140px 50px 140px;
+    }
+
 }
 .about__title{
     margin: 0 60px 25px 0;
