@@ -306,6 +306,11 @@ button:hover {
   margin: 80px 446px 60px;
   text-align: center;
 }
+@media (max-width: 768px) {
+  .help-title {
+    margin: 80px 0 60px;
+  }
+}
 
 .help-categories {
   display: flex;
@@ -313,6 +318,13 @@ button:hover {
   margin: 0 60px 100px;
   gap: 35px 120px;
   justify-content: center;
+}
+@media (max-width: 768px) {
+  .help-categories {
+    margin: 0px 45px 100px;
+    gap: 30px 111px;
+    justify-content: center;
+  }
 }
 
 .help-category {
@@ -322,6 +334,17 @@ button:hover {
   justify-content: center;
   align-items: center;
 }
+.help-category h4 {
+  margin-left: 0;
+  color: #545454;
+}
+
+@media (max-width: 768px) {
+  .categories-title__black {
+    margin-left: 0;
+    color: #545454;
+  }
+}
 
 .in-addition {
   background-color: #F6F6F6;
@@ -329,6 +352,12 @@ button:hover {
 
 .in-addition__flex {
   display: flex;
+}
+@media (max-width: 768px) {
+  .in-addition__flex {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
 
 .in-addition__img {
@@ -382,6 +411,12 @@ button:hover {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .in-addition__info {
+    margin: 3px 30px 10px 164px;
+  }
 }
 
 .wrapper {

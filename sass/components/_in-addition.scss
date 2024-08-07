@@ -3,6 +3,11 @@
 }
 .in-addition__flex{
     display: flex;
+    
+    @include media-tablet{
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
 .in-addition__img{
     margin:65px 30px 86px 143px;
@@ -12,6 +17,7 @@
 }
 .in_additional-form-info{
     @include font (1.5rem, 110%, 400, 0.09rem);
+
 }
 .in-addition__text{
     font-family: "Abhaya Libre";
@@ -37,4 +43,10 @@
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 30px;
+}
+.in-addition__info{
+    
+    @include media-tablet{
+        margin: 3px 30px 10px 164px;
+    }
 }
