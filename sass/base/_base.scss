@@ -18,16 +18,30 @@ h2{
     font-family: 'Abril Fatface';
     @include font(4.4rem, 130%, 400, );
     color: $color-subtitle;
+
+    @include media-mobil_small{
+        @include font(2.5rem, 130%, 400, );
+    }
 }
 h3{
     font-family: 'Georgia';
     @include font (3.5rem, 130%, 400, 0.21rem);
     color: $coolor-title;
+
+    @include media-mobil_small{
+        @include font (2.5rem, 130%, 400, 0.15rem);
+    }
 }
 h4{
     font-family: 'Georgia';
     @include font (2rem, 115%, 400, 0.12rem);
     color: $coolor-title;
+
+    @include media-mobil_small{
+        @include font (1.5rem, 110%, 400, 0.09rem);
+    }
+
+    
 }
 .not-only__text{
     color: $text-header;
@@ -36,6 +50,7 @@ p{
     font-family: 'Arial';
     @include font (1.5rem, 160%, 400);
     color: $color-text;
+
 }
 a{
     text-decoration: none;

@@ -3,15 +3,36 @@
 }
 .in-addition__flex{
     display: flex;
+    
+    @include media-tablet{
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
 .in-addition__img{
     margin:65px 30px 86px 143px;
+
+    @include media-mobil_small{
+        margin: 0px 0px 0px 0px;
+    }
+    @include media-mobil_small{
+        margin: 12px 0px 37px 19px;
+    }
 }
 .in-addition__title{
     margin: 53px 222px 20px 0px;
+
+    @include media-mobil_small{
+        margin: 0px 0px 0px 0px
+    }
+    @include media-mobil_small{
+        margin: 42px 0px 23px 34px;
+    }
 }
 .in_additional-form-info{
     @include font (1.5rem, 110%, 400, 0.09rem);
+    font-family: Georgia;
+
 }
 .in-addition__text{
     font-family: "Abhaya Libre";
@@ -24,6 +45,10 @@
     height: 43px;
     border: 0cap;
     border-radius: 9px;
+
+    @include media-mobil_small{
+        margin-bottom: 12px;
+    }
 }
 .in_additional-form-card-card{
     background-color: $color-bottom;
@@ -32,9 +57,33 @@
     border: 0cap;
     width: 300px;
     height: 25px;
+
+    @include media-mobil_small{
+        @include font (1.5rem, 110%, 400, 0.09rem);
+        width: 215px;
+        height: 30px;
+    }
+
 }
 .in_additional-form-wrapper{
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 30px;
+    width: 281px;
+    height: 43px;
+}
+.in-addition__info{
+    
+    @include media-tablet{
+        margin: 3px 30px 10px 164px;
+    }
+    @include media-mobil_small{
+        margin: 0px 8px 0px 13px;
+    }
+}
+.donation-dog{
+    @include media-mobil_small{
+        width: 260px; 
+    }
+ 
 }
