@@ -58,6 +58,15 @@ h3 {
   letter-spacing: 0.21rem;
   color: #545454;
 }
+@media (max-width: 320px) {
+  h3 {
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0.15rem;
+  }
+}
 
 h4 {
   font-family: "Georgia";
@@ -141,6 +150,11 @@ button:hover {
     padding: 0 0 100px;
   }
 }
+@media (max-width: 320px) {
+  .about-content {
+    padding: 0 0 0px;
+  }
+}
 
 .about__img {
   margin: 0 120px 0 175px;
@@ -159,17 +173,42 @@ button:hover {
     margin: 80px 140px 50px 140px;
   }
 }
+@media (max-width: 320px) {
+  .about__information {
+    margin: 38px 0px 50px 14px;
+  }
+}
 
 .about__title {
   margin: 0 60px 25px 0;
+}
+@media (max-width: 320px) {
+  .about__title {
+    text-align: center;
+    margin: 0px 40px 23px 29px;
+  }
 }
 
 .about__information__1 {
   margin: 0 0 25px 0;
 }
+@media (max-width: 320px) {
+  .about__information__1 {
+    margin: 0px 0 20px 0;
+  }
+}
 
 .about__information__2 {
   margin: 0 0 25px 0;
+}
+@media (max-width: 320px) {
+  .about__information__2 {
+    margin: 0px 0 15px 0;
+  }
+}
+
+.about-img-pets {
+  width: 260px;
 }
 
 .background-not-only {
