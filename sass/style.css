@@ -435,6 +435,12 @@ button:hover {
     margin: 0 auto;
   }
 }
+@media (max-width: 320px) {
+  .wrapper {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
 
 .header {
   position: absolute;
@@ -448,6 +454,12 @@ button:hover {
   }
 }
 
+@media (max-width: 320px) {
+  .header__logo {
+    margin-left: 10px;
+  }
+}
+
 .header__wrapper {
   display: flex;
   align-items: center;
@@ -456,6 +468,11 @@ button:hover {
 
 .nav {
   display: flex;
+}
+@media (max-width: 320px) {
+  .nav {
+    display: none;
+  }
 }
 
 .nav-item {
@@ -491,6 +508,12 @@ button:hover {
   display: flex;
   padding-top: 40px;
 }
+@media (max-width: 768px) {
+  .fotter-contacts {
+    padding-top: 0;
+    flex-wrap: wrap;
+  }
+}
 
 .contact__h3 {
   color: #FFF;
@@ -503,6 +526,11 @@ button:hover {
 
 .footer_flex {
   display: flex;
+}
+@media (max-width: 768px) {
+  .footer_flex {
+    margin-bottom: 60px;
+  }
 }
 
 .categories-title {
@@ -529,6 +557,11 @@ button:hover {
 .contact__questions {
   margin: 16px 160px 60px 0;
 }
+@media (max-width: 768px) {
+  .contact__questions {
+    margin: 10px 51px 0px 34px;
+  }
+}
 
 .visit__h3 {
   color: #FFF;
@@ -549,6 +582,29 @@ button:hover {
 
 .visit {
   margin-right: 160px;
+}
+@media (max-width: 768px) {
+  .visit {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .visit__h3 {
+    margin-top: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .visit__location {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .fotter-puppy {
+    margin-left: 204px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
