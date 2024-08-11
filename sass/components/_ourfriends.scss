@@ -6,6 +6,9 @@
     @include media-tablet{
         padding: 75px 140px 0px
     }
+    @include media-mobil_small{
+        padding: 81px 0px 0px;
+    }
 
 }
 .background-grey{
@@ -15,6 +18,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @include media-mobil_small{
+        margin-bottom: 33px;
+    }
 
     
 
@@ -32,6 +39,10 @@
 
         @include media-tablet{
             margin: 55px 28px 17px 9px;
+        }
+
+        @include media-mobil_small{
+            margin: 38px 0px 0px 12px;
         }
         
         &:hover .button_border{
@@ -72,6 +83,21 @@
     border-radius: 100px;
     border: 2px solid #F1CDB3;
     background-color: $color-nav;
+
+    @include media-mobil_small{
+        position: absolute;
+    }
+
+}
+.slider1{
+    @include media-mobil_small{
+        margin: 487px 0px 0px 58px;
+    }
+}
+.slider2{
+    @include media-mobil_small{
+        margin: 487px 0px 0px 187px;
+    } 
 }
 .arrow{
     display: flex;
@@ -82,6 +108,10 @@
 
     @include media-tablet{
         margin: 0 221px 100px;
+    }
+
+    @include media-mobil_small{
+        margin: 0px 16px 1px;
     }
 
 }

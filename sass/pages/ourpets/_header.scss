@@ -12,6 +12,12 @@
 }
 .nav{
     display: flex;
+    @include media-laptop{
+        margin-top: 25px;
+    }
+    @include media-mobil_small{
+        display: none;
+    }
 }
 .nav-item{
     list-style: none;
@@ -39,5 +45,13 @@
         border-bottom: solid #F1CDB3;
         color: $color-bottom-text;
         pointer-events: none;
+    }
+}
+.header__logo{
+    @include media-mobil_small{
+        margin-left: 30px;
+    }
+    @include media-mobil_small{
+        margin-left: 10px;
     }
 }

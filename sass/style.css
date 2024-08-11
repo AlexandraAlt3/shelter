@@ -39,6 +39,15 @@ h2 {
   letter-spacing: normal;
   color: #FFF;
 }
+@media (max-width: 320px) {
+  h2 {
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: normal;
+  }
+}
 
 h3 {
   font-family: "Georgia";
@@ -49,6 +58,15 @@ h3 {
   letter-spacing: 0.21rem;
   color: #545454;
 }
+@media (max-width: 320px) {
+  h3 {
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0.15rem;
+  }
+}
 
 h4 {
   font-family: "Georgia";
@@ -58,6 +76,15 @@ h4 {
   line-height: 115%;
   letter-spacing: 0.12rem;
   color: #545454;
+}
+@media (max-width: 320px) {
+  h4 {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 0.09rem;
+  }
 }
 
 .not-only__text {
@@ -132,6 +159,11 @@ button:hover {
     padding: 0 0 100px;
   }
 }
+@media (max-width: 320px) {
+  .about-content {
+    padding: 0 0 0px;
+  }
+}
 
 .about__img {
   margin: 0 120px 0 175px;
@@ -150,17 +182,42 @@ button:hover {
     margin: 80px 140px 50px 140px;
   }
 }
+@media (max-width: 320px) {
+  .about__information {
+    margin: 38px 0px 50px 14px;
+  }
+}
 
 .about__title {
   margin: 0 60px 25px 0;
+}
+@media (max-width: 320px) {
+  .about__title {
+    text-align: center;
+    margin: 0px 40px 23px 29px;
+  }
 }
 
 .about__information__1 {
   margin: 0 0 25px 0;
 }
+@media (max-width: 320px) {
+  .about__information__1 {
+    margin: 0px 0 20px 0;
+  }
+}
 
 .about__information__2 {
   margin: 0 0 25px 0;
+}
+@media (max-width: 320px) {
+  .about__information__2 {
+    margin: 0px 0 15px 0;
+  }
+}
+
+.about-img-pets {
+  width: 260px;
 }
 
 .background-not-only {
@@ -185,6 +242,11 @@ button:hover {
     padding: 60px 100px 0 100px;
   }
 }
+@media (max-width: 320px) {
+  .not-only {
+    padding: 62px 0px 0px 4px;
+  }
+}
 
 .not-only__information {
   padding: 145px 42px 236px 0;
@@ -194,13 +256,28 @@ button:hover {
     padding: 12px 11px 100px 24px;
   }
 }
+@media (max-width: 320px) {
+  .not-only__information {
+    padding: 12px 0px 100px 0px;
+  }
+}
 
 .not-only__title {
   margin: 0 150px 42px 0;
 }
+@media (max-width: 320px) {
+  .not-only__title {
+    margin: 0 30px 39px 53px;
+  }
+}
 
 .not-only__text {
   margin: 0 0 42px 0;
+}
+@media (max-width: 320px) {
+  .not-only__text {
+    margin: 0px 0 42px 0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -208,13 +285,28 @@ button:hover {
     margin-left: 124px;
   }
 }
+@media (max-width: 320px) {
+  .ourpets__button {
+    margin-left: 41px;
+  }
+}
 
 .not-only__img img {
   width: 560px;
 }
+@media (max-width: 320px) {
+  .not-only__img img {
+    width: 260px;
+  }
+}
 @media (max-width: 768px) {
   .not-only__img {
     padding-left: 120px;
+  }
+}
+@media (max-width: 320px) {
+  .not-only__img {
+    padding-left: 35px;
   }
 }
 
@@ -228,6 +320,11 @@ button:hover {
     padding: 75px 140px 0px;
   }
 }
+@media (max-width: 320px) {
+  .our-friends__title {
+    padding: 81px 0px 0px;
+  }
+}
 
 .background-grey {
   background: #F6F6F6;
@@ -237,6 +334,11 @@ button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@media (max-width: 320px) {
+  .our-friends__menu {
+    margin-bottom: 33px;
+  }
 }
 
 .our-friends__cards {
@@ -251,6 +353,11 @@ button:hover {
 @media (max-width: 768px) {
   .our-friends__cards .our-friends__card {
     margin: 55px 28px 17px 9px;
+  }
+}
+@media (max-width: 320px) {
+  .our-friends__cards .our-friends__card {
+    margin: 38px 0px 0px 12px;
   }
 }
 .our-friends__cards .our-friends__card:hover .button_border {
@@ -287,6 +394,23 @@ button:hover {
   border: 2px solid #F1CDB3;
   background-color: #FAFAFA;
 }
+@media (max-width: 320px) {
+  .our-friends__slider {
+    position: absolute;
+  }
+}
+
+@media (max-width: 320px) {
+  .slider1 {
+    margin: 487px 0px 0px 58px;
+  }
+}
+
+@media (max-width: 320px) {
+  .slider2 {
+    margin: 487px 0px 0px 187px;
+  }
+}
 
 .arrow {
   display: flex;
@@ -301,10 +425,25 @@ button:hover {
     margin: 0 221px 100px;
   }
 }
+@media (max-width: 320px) {
+  .button-rest {
+    margin: 0px 16px 1px;
+  }
+}
 
 .help-title {
   margin: 80px 446px 60px;
   text-align: center;
+}
+@media (max-width: 768px) {
+  .help-title {
+    margin: 80px 0 60px;
+  }
+}
+@media (max-width: 320px) {
+  .help-title {
+    margin: 80px 0 42px;
+  }
 }
 
 .help-categories {
@@ -314,6 +453,19 @@ button:hover {
   gap: 35px 120px;
   justify-content: center;
 }
+@media (max-width: 768px) {
+  .help-categories {
+    margin: 0px 45px 100px;
+    gap: 30px 111px;
+    justify-content: center;
+  }
+}
+@media (max-width: 320px) {
+  .help-categories {
+    gap: 0px 47px;
+    margin: 0px 0px 15px;
+  }
+}
 
 .help-category {
   display: flex;
@@ -321,6 +473,17 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.help-category h4 {
+  margin-left: 0;
+  color: #545454;
+}
+
+@media (max-width: 768px) {
+  .categories-title__black {
+    margin-left: 0;
+    color: #545454;
+  }
 }
 
 .in-addition {
@@ -330,13 +493,39 @@ button:hover {
 .in-addition__flex {
   display: flex;
 }
+@media (max-width: 768px) {
+  .in-addition__flex {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
 
 .in-addition__img {
   margin: 65px 30px 86px 143px;
 }
+@media (max-width: 320px) {
+  .in-addition__img {
+    margin: 0px 0px 0px 0px;
+  }
+}
+@media (max-width: 320px) {
+  .in-addition__img {
+    margin: 12px 0px 37px 19px;
+  }
+}
 
 .in-addition__title {
   margin: 53px 222px 20px 0px;
+}
+@media (max-width: 320px) {
+  .in-addition__title {
+    margin: 0px 0px 0px 0px;
+  }
+}
+@media (max-width: 320px) {
+  .in-addition__title {
+    margin: 42px 0px 23px 34px;
+  }
 }
 
 .in_additional-form-info {
@@ -345,6 +534,7 @@ button:hover {
   font-weight: 400;
   line-height: 110%;
   letter-spacing: 0.09rem;
+  font-family: Georgia;
 }
 
 .in-addition__text {
@@ -364,6 +554,11 @@ button:hover {
   border: 0cap;
   border-radius: 9px;
 }
+@media (max-width: 320px) {
+  .in_additional-form-wrapper {
+    margin-bottom: 12px;
+  }
+}
 
 .in_additional-form-card-card {
   background-color: #F1CDB3;
@@ -377,11 +572,41 @@ button:hover {
   width: 300px;
   height: 25px;
 }
+@media (max-width: 320px) {
+  .in_additional-form-card-card {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 0.09rem;
+    width: 215px;
+    height: 30px;
+  }
+}
 
 .in_additional-form-wrapper {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 30px;
+  width: 281px;
+  height: 43px;
+}
+
+@media (max-width: 768px) {
+  .in-addition__info {
+    margin: 3px 30px 10px 164px;
+  }
+}
+@media (max-width: 320px) {
+  .in-addition__info {
+    margin: 0px 8px 0px 13px;
+  }
+}
+
+@media (max-width: 320px) {
+  .donation-dog {
+    width: 260px;
+  }
 }
 
 .wrapper {
@@ -400,6 +625,12 @@ button:hover {
     margin: 0 auto;
   }
 }
+@media (max-width: 320px) {
+  .wrapper {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
 
 .header {
   position: absolute;
@@ -413,6 +644,12 @@ button:hover {
   }
 }
 
+@media (max-width: 320px) {
+  .header__logo {
+    margin-left: 10px;
+  }
+}
+
 .header__wrapper {
   display: flex;
   align-items: center;
@@ -421,6 +658,11 @@ button:hover {
 
 .nav {
   display: flex;
+}
+@media (max-width: 320px) {
+  .nav {
+    display: none;
+  }
 }
 
 .nav-item {
@@ -456,10 +698,21 @@ button:hover {
   display: flex;
   padding-top: 40px;
 }
+@media (max-width: 768px) {
+  .fotter-contacts {
+    padding-top: 0;
+    flex-wrap: wrap;
+  }
+}
 
 .contact__h3 {
   color: #FFF;
   margin: 16px 0 40px 0;
+}
+@media (max-width: 320px) {
+  .contact__h3 {
+    margin: 19px 0px 40px 5px;
+  }
 }
 
 .categories-title {
@@ -468,6 +721,11 @@ button:hover {
 
 .footer_flex {
   display: flex;
+}
+@media (max-width: 768px) {
+  .footer_flex {
+    margin-bottom: 60px;
+  }
 }
 
 .categories-title {
@@ -494,6 +752,11 @@ button:hover {
 .contact__questions {
   margin: 16px 160px 60px 0;
 }
+@media (max-width: 768px) {
+  .contact__questions {
+    margin: 10px 51px 0px 34px;
+  }
+}
 
 .visit__h3 {
   color: #FFF;
@@ -514,6 +777,35 @@ button:hover {
 
 .visit {
   margin-right: 160px;
+}
+@media (max-width: 768px) {
+  .visit {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .visit__h3 {
+    margin-top: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .visit__location {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .fotter-puppy {
+    margin-left: 204px;
+  }
+}
+@media (max-width: 320px) {
+  .fotter-puppy {
+    margin-left: 9px;
+    width: 260px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
