@@ -1,0 +1,57 @@
+.about-content{
+    @include flex($wrap:nowrap);
+    padding: 75px 0 100px 0;
+
+    @include media-tablet{
+        flex-direction: column-reverse;
+        padding: 0 0 100px;
+    }
+    
+    @include media-mobil_small{
+        padding: 0;
+    }
+
+}
+.about__img{
+    margin: 0 120px 0 175px ;
+    @include media-tablet{
+        margin: 0 auto;
+    }
+}
+.about__information{
+    margin: 0 175px 0 0;
+
+    @include media-tablet{
+    margin: 80px 140px 50px 140px;
+    }
+
+    @include media-mobil_small{
+        margin: 38px 0px 50px 14px;
+    }
+
+}
+.about__title{
+    margin: 0 60px 25px 0;
+
+    @include media-mobil_small{
+        text-align: center;
+        margin: 0px 13px 23px 29px;
+    }
+}
+.about__information__1{
+    margin: 0 0 25px 0;
+
+    @include media-mobil_small{
+        margin: 0px 0px 20px 17px;
+    }
+}
+.about__information__2{
+    margin: 0 0 25px 0;
+
+    @include media-mobil_small{
+        margin: 0px 0 15px 17px;
+    }
+}
+.about-img-pets{
+    width: 260px;
+}

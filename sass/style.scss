@@ -1,0 +1,17 @@
+@import "./abstracts/constans";
+@import "./abstracts/mixins";
+@import "./abstracts/placeholders";
+
+@import "./base/base";
+@import "./base/logo";
+@import "./base/buttons";
+
+@import "./components/about";
+@import "./components/not-only";
+@import "./components/ourfriends";
+@import "./components/help";
+@import "./components/in-addition";
+
+@import "./layout/wrapper";
+@import "./layout/header";
+@import "./layout/footer";

@@ -1,0 +1,512 @@
+.nav-link, button, a {
+  transition: all 0.3s ease-out;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: normal;
+}
+
+h1 {
+  font-family: "Georgia";
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+  letter-spacing: 0.192rem;
+  margin: 30px 0 10px 0;
+}
+
+h2 {
+  font-family: "Abril Fatface";
+  font-size: 4.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: normal;
+  color: #FFF;
+}
+@media (max-width: 320px) {
+  h2 {
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: normal;
+  }
+}
+
+h3 {
+  font-family: "Georgia";
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0.21rem;
+  color: #545454;
+}
+@media (max-width: 320px) {
+  h3 {
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0.15rem;
+  }
+}
+
+h4 {
+  font-family: "Georgia";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 115%;
+  letter-spacing: 0.12rem;
+  color: #545454;
+}
+@media (max-width: 320px) {
+  h4 {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 0.09rem;
+  }
+}
+
+.not-only__text {
+  color: #CDCDCD;
+}
+
+p {
+  font-family: "Arial";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: normal;
+  color: #4C4C4C;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 15px 45px;
+  font-family: "Georgia";
+  font-size: 1.7rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0.102rem;
+  color: #292929;
+  background-color: #F1CDB3;
+  border-radius: 100px;
+  border: 2px solid #F1CDB3;
+}
+button:hover {
+  background-color: #FDDCC4;
+  cursor: pointer;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+@media (max-width: 1200px) {
+  .wrapper {
+    max-width: 708px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 414px) {
+  .wrapper {
+    max-width: 394px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 320px) {
+  .wrapper {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
+.footer {
+  background: linear-gradient(90deg, rgb(91, 72, 58) 1%, rgb(33, 31, 32) 100%, rgb(38, 36, 37) 100%);
+  background-size: 100% auto;
+}
+
+.fotter-contacts {
+  display: flex;
+  padding-top: 40px;
+}
+@media (max-width: 768px) {
+  .fotter-contacts {
+    padding-top: 0;
+    flex-wrap: wrap;
+  }
+}
+
+.contact__h3 {
+  color: #FFF;
+  margin: 16px 0 40px 0;
+}
+@media (max-width: 320px) {
+  .contact__h3 {
+    margin: 19px 0px 40px 5px;
+  }
+}
+
+.categories-title {
+  color: #F1CDB3;
+}
+
+.footer_flex {
+  display: flex;
+}
+@media (max-width: 768px) {
+  .footer_flex {
+    margin-bottom: 60px;
+  }
+}
+
+.categories-title {
+  margin-left: 20px;
+}
+
+.contact__email {
+  margin-bottom: 40px;
+}
+
+.contact__questions img {
+  width: 40px;
+  height: 32px;
+}
+
+.email {
+  margin: 0px 39px 0 20px;
+}
+
+.phone {
+  margin: 0px 39px 0 20px;
+}
+
+.contact__questions {
+  margin: 16px 160px 60px 0;
+}
+@media (max-width: 768px) {
+  .contact__questions {
+    margin: 10px 51px 0px 34px;
+  }
+}
+
+.visit__h3 {
+  color: #FFF;
+}
+
+.visit__location img {
+  width: 22px;
+  height: 32px;
+}
+
+.location {
+  margin: 0 0 20px 20px;
+}
+
+.location2 {
+  margin: 0 0 0 20px;
+}
+
+.visit {
+  margin-right: 160px;
+}
+@media (max-width: 768px) {
+  .visit {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .visit__h3 {
+    margin-top: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .visit__location {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .fotter-puppy {
+    margin-left: 204px;
+  }
+}
+@media (max-width: 320px) {
+  .fotter-puppy {
+    margin-left: 9px;
+    width: 260px;
+  }
+}
+
+.ourpets {
+  background-color: #F6F6F6;
+  padding: 155px 0 100px;
+}
+
+.ourpets__title {
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header__logo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header__logo-title {
+  color: #545454;
+  text-decoration: none;
+}
+
+.header__logo-subtitle {
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.13rem;
+  color: #292929;
+  text-decoration: none;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+}
+@media (max-width: 1200px) {
+  .nav {
+    margin-top: 25px;
+  }
+}
+@media (max-width: 320px) {
+  .nav {
+    display: none;
+  }
+}
+
+.nav-item {
+  list-style: none;
+}
+.nav-item:last-child {
+  padding-right: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #545454;
+  border-bottom: solid transparent;
+}
+.nav-link:hover {
+  color: #292929;
+  cursor: pointer;
+  border-bottom: solid #F1CDB3;
+}
+
+.nav ul:nth-child(2) a {
+  border-bottom: solid #F1CDB3;
+  color: #292929;
+  pointer-events: none;
+}
+
+@media (max-width: 320px) {
+  .header__logo {
+    margin-left: 30px;
+  }
+}
+@media (max-width: 320px) {
+  .header__logo {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .ourpets {
+    padding: 111px 0 79px;
+  }
+}
+@media (max-width: 320px) {
+  .ourpets {
+    padding: 74px 0 43px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .our-friends__title {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .ourpets__title {
+    margin: 81px 0px 14px;
+  }
+}
+@media (max-width: 320px) {
+  .ourpets__title {
+    margin: 81px 0px 24px;
+  }
+}
+
+.ourpets__cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 60px;
+}
+@media (max-width: 1200px) {
+  .ourpets__cards {
+    margin: 0 60px;
+  }
+}
+@media (max-width: 320px) {
+  .ourpets__cards {
+    margin: 0 15px;
+  }
+}
+.ourpets__cards .ourpets__card {
+  margin: 15px 0 0 0;
+  background-color: #FAFAFA;
+  cursor: pointer;
+}
+.ourpets__cards .ourpets__card .button_border {
+  background-color: #FAFAFA;
+}
+.ourpets__cards .ourpets__card:hover .button_border {
+  background-color: #FDDCC4;
+  cursor: pointer;
+}
+.ourpets__cards .ourpets__card .our-friends__img {
+  border-radius: 9px 9px 0px 0px;
+  margin-bottom: 30px;
+}
+@media (max-width: 1200px) {
+  .ourpets__cards .ourpets__card .our-friends__img {
+    margin-bottom: 20px;
+  }
+}
+.ourpets__cards .ourpets__card .our-friends__name {
+  margin: 0 0 30px 0;
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+}
+.ourpets__cards .ourpets__card .button_border {
+  margin-left: 41.5px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1200px) {
+  .card__768 {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .card__320 {
+    display: none;
+  }
+}
+
+.outpets__button {
+  padding-left: 430px;
+}
+@media (max-width: 1200px) {
+  .outpets__button {
+    padding-left: 183px;
+  }
+}
+@media (max-width: 320px) {
+  .outpets__button {
+    padding-left: 0px;
+  }
+}
+
+.ourpets__circle {
+  margin-right: 15px;
+  padding: 14px 12px;
+  border-radius: 100px;
+  border: 2px solid #F1CDB3;
+  background-color: #FAFAFA;
+}
+@media (max-width: 320px) {
+  .ourpets__circle {
+    margin-right: 3px;
+  }
+}
+
+.circle2 {
+  padding: 13px 20px;
+}
+
+.circle3 {
+  padding: 13px 20px;
+}
+
+.circle-not {
+  border: 2px solid #CDCDCD;
+  color: #292929;
+  pointer-events: none;
+}
+
+.footer {
+  background: linear-gradient(90deg, rgb(91, 72, 58) 1%, rgb(33, 31, 32) 100%, rgb(38, 36, 37) 100%);
+  background-size: 100% auto;
+}
+
+@media (max-width: 1200px) {
+  .footer-puppy {
+    margin-left: 202px;
+  }
+}
+@media (max-width: 414px) {
+  .footer-puppy {
+    margin-left: 0px;
+  }
+}
+
+/*# sourceMappingURL=style-ourpets.css.map */

@@ -1,0 +1,15 @@
+.header__logo{
+    @include flex();
+    flex-direction: column;
+}
+
+.header__logo-title{
+    color: $color-bottom;
+    text-decoration: none;
+}
+
+.header__logo-subtitle{
+    @include font (1.3rem, normal, 400, 0.13rem);
+    color: $color-subtitle;
+    text-decoration: none;
+}
