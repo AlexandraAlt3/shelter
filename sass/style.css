@@ -39,6 +39,15 @@ h2 {
   letter-spacing: normal;
   color: #FFF;
 }
+@media (max-width: 320px) {
+  h2 {
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: normal;
+  }
+}
 
 h3 {
   font-family: "Georgia";
@@ -185,6 +194,11 @@ button:hover {
     padding: 60px 100px 0 100px;
   }
 }
+@media (max-width: 320px) {
+  .not-only {
+    padding: 62px 0px 0px 4px;
+  }
+}
 
 .not-only__information {
   padding: 145px 42px 236px 0;
@@ -194,13 +208,28 @@ button:hover {
     padding: 12px 11px 100px 24px;
   }
 }
+@media (max-width: 320px) {
+  .not-only__information {
+    padding: 12px 0px 100px 0px;
+  }
+}
 
 .not-only__title {
   margin: 0 150px 42px 0;
 }
+@media (max-width: 320px) {
+  .not-only__title {
+    margin: 0 30px 39px 53px;
+  }
+}
 
 .not-only__text {
   margin: 0 0 42px 0;
+}
+@media (max-width: 320px) {
+  .not-only__text {
+    margin: 0px 0 42px 0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -208,13 +237,28 @@ button:hover {
     margin-left: 124px;
   }
 }
+@media (max-width: 320px) {
+  .ourpets__button {
+    margin-left: 41px;
+  }
+}
 
 .not-only__img img {
   width: 560px;
 }
+@media (max-width: 320px) {
+  .not-only__img img {
+    width: 260px;
+  }
+}
 @media (max-width: 768px) {
   .not-only__img {
     padding-left: 120px;
+  }
+}
+@media (max-width: 320px) {
+  .not-only__img {
+    padding-left: 35px;
   }
 }
 

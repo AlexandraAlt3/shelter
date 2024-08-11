@@ -18,6 +18,10 @@ h2{
     font-family: 'Abril Fatface';
     @include font(4.4rem, 130%, 400, );
     color: $color-subtitle;
+
+    @include media-mobil_small{
+        @include font(2.5rem, 130%, 400, );
+    }
 }
 h3{
     font-family: 'Georgia';
