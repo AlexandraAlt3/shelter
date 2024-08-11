@@ -603,8 +603,10 @@ button:hover {
   }
 }
 
-.donation-dog {
-  width: 260px;
+@media (max-width: 320px) {
+  .donation-dog {
+    width: 260px;
+  }
 }
 
 .wrapper {
@@ -707,6 +709,11 @@ button:hover {
   color: #FFF;
   margin: 16px 0 40px 0;
 }
+@media (max-width: 320px) {
+  .contact__h3 {
+    margin: 19px 0px 40px 5px;
+  }
+}
 
 .categories-title {
   color: #F1CDB3;
@@ -792,6 +799,12 @@ button:hover {
 @media (max-width: 768px) {
   .fotter-puppy {
     margin-left: 204px;
+  }
+}
+@media (max-width: 320px) {
+  .fotter-puppy {
+    margin-left: 9px;
+    width: 260px;
   }
 }
 

@@ -82,5 +82,8 @@
     }
 }
 .donation-dog{
-    width: 260px;
+    @include media-mobil_small{
+        width: 260px; 
+    }
+ 
 }
