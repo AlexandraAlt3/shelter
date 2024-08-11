@@ -8,7 +8,7 @@
     }
     
     @include media-mobil_small{
-        padding: 0 0 0px;
+        padding: 0;
     }
 
 }
@@ -35,21 +35,21 @@
 
     @include media-mobil_small{
         text-align: center;
-        margin: 0px 40px 23px 29px;
+        margin: 0px 13px 23px 29px;
     }
 }
 .about__information__1{
     margin: 0 0 25px 0;
 
     @include media-mobil_small{
-        margin: 0px 0 20px 0;
+        margin: 0px 0px 20px 17px;
     }
 }
 .about__information__2{
     margin: 0 0 25px 0;
 
     @include media-mobil_small{
-        margin: 0px 0 15px 0;
+        margin: 0px 0 15px 17px;
     }
 }
 .about-img-pets{
