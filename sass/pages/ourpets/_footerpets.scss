@@ -6,4 +6,7 @@
     @include media-laptop{
         margin-left: 202px;
     }
+    @include media-mobil_big{
+        margin-left: 0px;
+    }
 }

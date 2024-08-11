@@ -2,6 +2,9 @@
     @include media-laptop{
         padding: 111px 0 79px;
     }
+    @include media-mobil_small{
+        padding: 74px 0 43px;
+    }
 }
 .our-friends__title{
     @include media-laptop{
@@ -12,6 +15,9 @@
     @include media-laptop{
         margin: 81px 0px 14px;
     }
+    @include media-mobil_small{
+        margin: 81px 0px 24px
+    }
 }
 .ourpets__cards{
     display: flex;
@@ -21,6 +27,10 @@
 
     @include media-laptop{
         margin: 0 60px;
+    }
+
+    @include media-mobil_small{
+        margin: 0 15px;
     }
     
     .ourpets__card{
@@ -65,11 +75,20 @@
         display: none;
     }
 }
+.card__320{
+    @include media-mobil_small{
+        display: none;
+    }
+}
 .outpets__button{
     padding-left: 430px;
-
+    
     @include media-laptop{
         padding-left: 183px;
+    }
+
+    @include media-mobil_small{
+        padding-left: 0px;
     }
 }
 
@@ -79,6 +98,10 @@
     border-radius: 100px;
     border: 2px solid #F1CDB3;
     background-color: #FAFAFA;
+
+    @include media-mobil_small{
+        margin-right: 3px;
+    }
     
 }
 .circle2{
