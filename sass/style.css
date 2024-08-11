@@ -311,6 +311,11 @@ button:hover {
     padding: 75px 140px 0px;
   }
 }
+@media (max-width: 320px) {
+  .our-friends__title {
+    padding: 81px 0px 0px;
+  }
+}
 
 .background-grey {
   background: #F6F6F6;
@@ -320,6 +325,11 @@ button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@media (max-width: 320px) {
+  .our-friends__menu {
+    margin-bottom: 33px;
+  }
 }
 
 .our-friends__cards {
@@ -334,6 +344,11 @@ button:hover {
 @media (max-width: 768px) {
   .our-friends__cards .our-friends__card {
     margin: 55px 28px 17px 9px;
+  }
+}
+@media (max-width: 320px) {
+  .our-friends__cards .our-friends__card {
+    margin: 38px 0px 0px 12px;
   }
 }
 .our-friends__cards .our-friends__card:hover .button_border {
@@ -370,6 +385,23 @@ button:hover {
   border: 2px solid #F1CDB3;
   background-color: #FAFAFA;
 }
+@media (max-width: 320px) {
+  .our-friends__slider {
+    position: absolute;
+  }
+}
+
+@media (max-width: 320px) {
+  .slider1 {
+    margin: 487px 0px 0px 58px;
+  }
+}
+
+@media (max-width: 320px) {
+  .slider2 {
+    margin: 487px 0px 0px 187px;
+  }
+}
 
 .arrow {
   display: flex;
@@ -382,6 +414,11 @@ button:hover {
 @media (max-width: 768px) {
   .button-rest {
     margin: 0 221px 100px;
+  }
+}
+@media (max-width: 320px) {
+  .button-rest {
+    margin: 0px 16px 1px;
   }
 }
 
