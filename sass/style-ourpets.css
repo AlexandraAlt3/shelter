@@ -1,9 +1,10 @@
-.nav-link, button {
+.nav-link, button, a {
   transition: all 0.3s ease-out;
 }
 
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -38,6 +39,15 @@ h2 {
   letter-spacing: normal;
   color: #FFF;
 }
+@media (max-width: 320px) {
+  h2 {
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: normal;
+  }
+}
 
 h3 {
   font-family: "Georgia";
@@ -48,6 +58,15 @@ h3 {
   letter-spacing: 0.21rem;
   color: #545454;
 }
+@media (max-width: 320px) {
+  h3 {
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0.15rem;
+  }
+}
 
 h4 {
   font-family: "Georgia";
@@ -57,6 +76,15 @@ h4 {
   line-height: 115%;
   letter-spacing: 0.12rem;
   color: #545454;
+}
+@media (max-width: 320px) {
+  h4 {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 0.09rem;
+  }
 }
 
 .not-only__text {
@@ -99,9 +127,27 @@ button:hover {
   max-width: 1200px;
   margin: 0 auto;
 }
+@media (max-width: 1200px) {
+  .wrapper {
+    max-width: 708px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 414px) {
+  .wrapper {
+    max-width: 394px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 320px) {
+  .wrapper {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
 
 .footer {
-  background-color: #5B483A;
+  background: linear-gradient(90deg, rgb(91, 72, 58) 1%, rgb(33, 31, 32) 100%, rgb(38, 36, 37) 100%);
   background-size: 100% auto;
 }
 
@@ -109,10 +155,21 @@ button:hover {
   display: flex;
   padding-top: 40px;
 }
+@media (max-width: 768px) {
+  .fotter-contacts {
+    padding-top: 0;
+    flex-wrap: wrap;
+  }
+}
 
 .contact__h3 {
   color: #FFF;
   margin: 16px 0 40px 0;
+}
+@media (max-width: 320px) {
+  .contact__h3 {
+    margin: 19px 0px 40px 5px;
+  }
 }
 
 .categories-title {
@@ -121,6 +178,11 @@ button:hover {
 
 .footer_flex {
   display: flex;
+}
+@media (max-width: 768px) {
+  .footer_flex {
+    margin-bottom: 60px;
+  }
 }
 
 .categories-title {
@@ -147,6 +209,11 @@ button:hover {
 .contact__questions {
   margin: 16px 160px 60px 0;
 }
+@media (max-width: 768px) {
+  .contact__questions {
+    margin: 10px 51px 0px 34px;
+  }
+}
 
 .visit__h3 {
   color: #FFF;
@@ -168,6 +235,35 @@ button:hover {
 .visit {
   margin-right: 160px;
 }
+@media (max-width: 768px) {
+  .visit {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .visit__h3 {
+    margin-top: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .visit__location {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .fotter-puppy {
+    margin-left: 204px;
+  }
+}
+@media (max-width: 320px) {
+  .fotter-puppy {
+    margin-left: 9px;
+    width: 260px;
+  }
+}
 
 .ourpets {
   background-color: #F6F6F6;
@@ -176,6 +272,10 @@ button:hover {
 
 .ourpets__title {
   text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .header__logo {
@@ -218,6 +318,11 @@ button:hover {
 .nav {
   display: flex;
 }
+@media (max-width: 1200px) {
+  .nav {
+    margin-top: 25px;
+  }
+}
 
 .nav-item {
   list-style: none;
@@ -243,11 +348,40 @@ button:hover {
   pointer-events: none;
 }
 
+@media (max-width: 320px) {
+  .header__logo {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .ourpets {
+    padding: 111px 0 79px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .our-friends__title {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .ourpets__title {
+    margin: 81px 0px 14px;
+  }
+}
+
 .ourpets__cards {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   padding-bottom: 60px;
+}
+@media (max-width: 1200px) {
+  .ourpets__cards {
+    margin: 0 60px;
+  }
 }
 .ourpets__cards .ourpets__card {
   margin: 15px 0 0 0;
@@ -265,6 +399,11 @@ button:hover {
   border-radius: 9px 9px 0px 0px;
   margin-bottom: 30px;
 }
+@media (max-width: 1200px) {
+  .ourpets__cards .ourpets__card .our-friends__img {
+    margin-bottom: 20px;
+  }
+}
 .ourpets__cards .ourpets__card .our-friends__name {
   margin: 0 0 30px 0;
   display: flex;
@@ -276,8 +415,19 @@ button:hover {
   margin-bottom: 30px;
 }
 
+@media (max-width: 1200px) {
+  .card__768 {
+    display: none;
+  }
+}
+
 .outpets__button {
   padding-left: 430px;
+}
+@media (max-width: 1200px) {
+  .outpets__button {
+    padding-left: 183px;
+  }
 }
 
 .ourpets__circle {
@@ -303,8 +453,14 @@ button:hover {
 }
 
 .footer {
-  background-image: url(../../../assets/img/background.jpg);
+  background: linear-gradient(90deg, rgb(91, 72, 58) 1%, rgb(33, 31, 32) 100%, rgb(38, 36, 37) 100%);
   background-size: 100% auto;
+}
+
+@media (max-width: 1200px) {
+  .footer-puppy {
+    margin-left: 202px;
+  }
 }
 
 /*# sourceMappingURL=style-ourpets.css.map */

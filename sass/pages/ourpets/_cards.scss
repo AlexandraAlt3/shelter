@@ -1,13 +1,33 @@
+.ourpets{
+    @include media-laptop{
+        padding: 111px 0 79px;
+    }
+}
+.our-friends__title{
+    @include media-laptop{
+        margin-bottom: 15px;
+    }
+}
+.ourpets__title{
+    @include media-laptop{
+        margin: 81px 0px 14px;
+    }
+}
 .ourpets__cards{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     padding-bottom: 60px;
+
+    @include media-laptop{
+        margin: 0 60px;
+    }
     
     .ourpets__card{
         margin: 15px 0 0 0;
         background-color: $color-nav;
         cursor: pointer;
+        
         
         .button_border{
             background-color:$color-nav;
@@ -21,6 +41,10 @@
        .our-friends__img{
         border-radius: 9px 9px 0px 0px;
         margin-bottom: 30px;
+
+        @include media-laptop{
+            margin-bottom: 20px;
+        }
        }
 
        .our-friends__name{
@@ -36,8 +60,17 @@
        }
     }
 }
+.card__768{
+    @include media-laptop{
+        display: none;
+    }
+}
 .outpets__button{
     padding-left: 430px;
+
+    @include media-laptop{
+        padding-left: 183px;
+    }
 }
 
 .ourpets__circle{
