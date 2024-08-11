@@ -37,6 +37,10 @@ h4{
     @include font (2rem, 115%, 400, 0.12rem);
     color: $coolor-title;
 
+    @include media-mobil_small{
+        @include font (1.5rem, 110%, 400, 0.09rem);
+    }
+
     
 }
 .not-only__text{
@@ -46,6 +50,7 @@ p{
     font-family: 'Arial';
     @include font (1.5rem, 160%, 400);
     color: $color-text;
+
 }
 a{
     text-decoration: none;

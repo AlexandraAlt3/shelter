@@ -77,6 +77,15 @@ h4 {
   letter-spacing: 0.12rem;
   color: #545454;
 }
+@media (max-width: 320px) {
+  h4 {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 0.09rem;
+  }
+}
 
 .not-only__text {
   color: #CDCDCD;
@@ -431,6 +440,11 @@ button:hover {
     margin: 80px 0 60px;
   }
 }
+@media (max-width: 320px) {
+  .help-title {
+    margin: 80px 0 42px;
+  }
+}
 
 .help-categories {
   display: flex;
@@ -444,6 +458,12 @@ button:hover {
     margin: 0px 45px 100px;
     gap: 30px 111px;
     justify-content: center;
+  }
+}
+@media (max-width: 320px) {
+  .help-categories {
+    gap: 0px 47px;
+    margin: 0px 0px 15px;
   }
 }
 
@@ -483,9 +503,29 @@ button:hover {
 .in-addition__img {
   margin: 65px 30px 86px 143px;
 }
+@media (max-width: 320px) {
+  .in-addition__img {
+    margin: 0px 0px 0px 0px;
+  }
+}
+@media (max-width: 320px) {
+  .in-addition__img {
+    margin: 12px 0px 37px 19px;
+  }
+}
 
 .in-addition__title {
   margin: 53px 222px 20px 0px;
+}
+@media (max-width: 320px) {
+  .in-addition__title {
+    margin: 0px 0px 0px 0px;
+  }
+}
+@media (max-width: 320px) {
+  .in-addition__title {
+    margin: 42px 0px 23px 34px;
+  }
 }
 
 .in_additional-form-info {
@@ -494,6 +534,7 @@ button:hover {
   font-weight: 400;
   line-height: 110%;
   letter-spacing: 0.09rem;
+  font-family: Georgia;
 }
 
 .in-addition__text {
@@ -513,6 +554,11 @@ button:hover {
   border: 0cap;
   border-radius: 9px;
 }
+@media (max-width: 320px) {
+  .in_additional-form-wrapper {
+    margin-bottom: 12px;
+  }
+}
 
 .in_additional-form-card-card {
   background-color: #F1CDB3;
@@ -526,17 +572,39 @@ button:hover {
   width: 300px;
   height: 25px;
 }
+@media (max-width: 320px) {
+  .in_additional-form-card-card {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 0.09rem;
+    width: 215px;
+    height: 30px;
+  }
+}
 
 .in_additional-form-wrapper {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 30px;
+  width: 281px;
+  height: 43px;
 }
 
 @media (max-width: 768px) {
   .in-addition__info {
     margin: 3px 30px 10px 164px;
   }
+}
+@media (max-width: 320px) {
+  .in-addition__info {
+    margin: 0px 8px 0px 13px;
+  }
+}
+
+.donation-dog {
+  width: 260px;
 }
 
 .wrapper {
